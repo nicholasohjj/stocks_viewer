@@ -1,0 +1,1 @@
+print("Language Practice Buddy")
