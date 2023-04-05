@@ -12,6 +12,7 @@ url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&sy
 response = requests.get(url)
 data = response.json()["Time Series (Daily)"]
 
+## writing data into csv file
 with open("data.csv", "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["Date", "Open", "High", "Low", "Close", "Volume"])
