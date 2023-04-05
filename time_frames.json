@@ -1,0 +1,24 @@
+{
+    "1": {
+        "time": "Intraday",
+        "info": "Covers extended trading hours where applicable (e.g., 4:00am to 8:00pm Eastern Time for the US market)",
+        "url": "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=_SYMBOL_&interval=5min&apikey=_API_KEY_"
+
+    },
+    "2": {
+        "time": "Daily adjusted",
+        "info": "Daily open/high/low/close/volume values, adjusted close values, and historical split/dividend events of the global equity specified",
+        "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=_SYMBOL_&apikey=_API_KEY_"
+
+    },
+    "3": {
+        "time": "Weekly adjusted",
+        "info": "Weekly adjusted time series (last trading day of each week, weekly open, weekly high, weekly low, weekly close, weekly adjusted close, weekly volume, weekly dividend) of the global equity specified",
+        "url": "https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY_ADJUSTEDsymbol=_SYMBOL_&apikey=_API_KEY_"
+    },
+    "4": {
+        "time": "Monthly adjusted",
+        "info": "Monthly adjusted time series (last trading day of each month, monthly open, monthly high, monthly low, monthly close, monthly adjusted close, monthly volume, monthly dividend) of the equity specified",
+        "url":"https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY_ADJUSTED&symbol=_SYMBOL_&apikey=_API_KEY_"
+    }
+}
