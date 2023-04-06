@@ -14,7 +14,7 @@
     "3": {
         "time": "Weekly adjusted",
         "info": "Weekly adjusted time series (last trading day of each week, weekly open, weekly high, weekly low, weekly close, weekly adjusted close, weekly volume, weekly dividend) of the global equity specified",
-        "url": "https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY_ADJUSTEDsymbol=_SYMBOL_&apikey=_API_KEY_"
+        "url": "https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY_ADJUSTED&symbol=_SYMBOL_&apikey=_API_KEY_"
     },
     "4": {
         "time": "Monthly adjusted",

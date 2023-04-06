@@ -8,75 +8,97 @@ import json
 load_dotenv()
 
 api_key = os.getenv("api_key")
-
-time_frames = None
+TIME_FRAMES = None
 with open("time_frames.json") as file:
-    time_frames = json.load(file)
+    TIME_FRAMES = json.load(file)
 
-def write_into_csv(symbol):
+def lookup():
+
+    symbol = input("Enter symbol to lookup: ").strip().upper()
+
+    print("--------")
+    time_frame_chosen = None
+    while not time_frame_chosen:
+        print("Select time frame (Enter digit)")
+        print("Enter digit followed by info for more details on time frame (E.g: 1 info)")
+        print("--------")
+        for bullet, details in TIME_FRAMES.items():
+            time_frame = details["time"]
+            print(f"{bullet}: {time_frame}")
+        option = input("Option: ").strip()
+        if "info" in option.lower():
+            response = option.split()
+            print(TIME_FRAMES[response[0]]["info"])
+            move = input("Press any key to continue")
+        else:
+            try:
+                int(option)
+            except:
+                print("Enter a valid digit")
+                continue
+            if int(option) > len(TIME_FRAMES):
+                print("Enter a valid digit")
+            else:
+                time_frame_chosen = option
+
+    url = TIME_FRAMES[time_frame_chosen]["url"]
+    url = url.replace("_API_KEY_",api_key)
+    url = url.replace("_SYMBOL_", symbol)
+
+    response = requests.get(url)
+    raw_data = response.json()
+    print(raw_data)
+    if len(raw_data) == 1:
+        print("Invalid symbol, please try again.")
+        return lookup()
+    data_index = [i for i in raw_data.keys()][1]
+    data = raw_data[data_index]
+
+    header = TIME_FRAMES[time_frame_chosen]["time"]
+
+    return symbol,data,header
+
+## TO-DO modify writing into csv to fit all options
+def write_into_csv(symbol,data, header):
+
     with open(f"{symbol}.csv", "w", newline="") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["Date", "Open", "High", "Low", "Close", "Volume"])
+        details = list(list(data.values())[0].keys())
+        row_title = ["Date"]
+        for detail in details:
+            title = detail.split()[1].capitalize()
+            row_title.append(title)
+        row_title.append(header)
+        writer.writerow(row_title)
         for date, values in data.items():
-            writer.writerow([date, values["1. open"], values["2. high"], values["3. low"], values["4. close"], values["6. volume"]])
+            contents = [date] + [values[detail] for detail in details]
+            writer.writerow(contents)
 
 def read_csv_and_plot(symbol):
     dates = []
     closing_prices = []
+    title = ""
     with open(f"{symbol}.csv") as csvfile:
         reader = csv.DictReader(csvfile)
+        print(title)
         for row in reader:
+            if not title:
+                title = list(row.keys())[-1]
             dates.append(row["Date"])
             closing_prices.append(float(row["Close"]))
 
     plt.plot(dates, closing_prices)
-    plt.title(f"Daily Closing Prices for {symbol}")
+    plt.title(f"{title} Closing Prices for {symbol}")
     plt.xlabel("Date")
     plt.ylabel("Closing Price ($)")
     plt.show()
 
+
 print("Stocks Visualiser")
 print("========")
 time.sleep(0.5)
-
-
-symbol = input("Enter symbol to lookup: ").strip().upper()
-
-print("--------")
-time_frame_chosen = None
-while not time_frame_chosen:
-    print("Select time frame (Enter digit)")
-    print("Enter digit followed by info for more details on time frame (E.g: 1 info)")
-    print("--------")
-    for bullet, details in time_frames.items():
-        time_frame = details["time"]
-        print(f"{bullet}: {time_frame}")
-    option = input("Option: ").strip()
-    if "info" in option.lower():
-        response = option.split()
-        print(time_frames[response[0]]["info"])
-        move = input("Press any key to continue")
-    else:
-        try:
-            option = int(option)
-        except:
-            print("Enter a valid digit")
-            continue
-        if int(option) > len(time_frames):
-            print("Enter a valid digit")
-        else:
-            time_frame_chosen = option
-
-
-
-print(api_key,symbol)
-url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={symbol}&apikey={api_key}"
-response = requests.get(url)
-data = response.json()["Time Series (Daily)"]
-
-write_into_csv(symbol)
+symbol,data,header = lookup()
+write_into_csv(symbol,data,header)
 read_csv_and_plot(symbol)
-## writing data into csv file
-
 
 
