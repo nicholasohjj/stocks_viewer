@@ -17,6 +17,7 @@ df = getter.lookup(symbol)
 
 
 app.layout = html.Div([
+
     html.H1(children=f'{symbol}', style={'textAlign':'center'}),
     dcc.Dropdown([time_frames_list], 'Intraday', id='dropdown-selection'),
     dcc.Graph(id='graph-content')

@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 import os
 import time
 import json
+import dashboard_test
 
 load_dotenv()
 
@@ -63,4 +64,7 @@ def display_solo(value,symbol):
     display_data(data, value,symbol)
     return data,symbol
 
-lookup("AAPL")
+
+lookup("ibm")
+
+#df.time_frame.unique()
