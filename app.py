@@ -5,6 +5,7 @@ import plotly.graph_objs as go
 import alpha_vantage.timeseries as ts
 import pandas as pd
 import os
+import json
 from datetime import datetime as dt
 
 load_dotenv()
@@ -33,7 +34,7 @@ def lookup(symbol):
 
         data = pd.concat([intraday_data, daily_data, weekly_data, monthly_data])
 
-        data.to_csv('{}.csv'.format(symbol.upper()), index=True)
+        data.to_csv(symbol.upper()+'.csv', index=True)
         return data
     except ValueError:
         print("Invalid symbol or API key")
@@ -48,20 +49,23 @@ def check_outdated(df):
 
     return diff>4
 
-symbol = 'AAPL'
-file_path = f'{symbol}.csv'
-df = pd.read_csv(file_path)
+time_frames = []
+with open("time_frames.json") as file:
+    data = json.load(file)
+    for item in data:
+        time_frames.append(data[item]["time"])
+
 clicks = 0
 
 app = Dash(__name__)
 app.layout = html.Div([
-    html.H1(children=f'Stock Prices', style={'textAlign':'center'}),
+    html.H1(children='Stock Prices', style={'textAlign':'center'}),
     html.Div([
     html.Div([
         dcc.Input(
             id='symbol-input',
             type='search',
-            value='AAPL',
+            placeholder='Enter stock symbol',
             style={'width': '30%', 'marginRight': '10px'}
         ),
         html.Button('Fetch Data', id='fetch-data-button', n_clicks=0),
@@ -77,7 +81,7 @@ app.layout = html.Div([
     ]),
         dcc.Dropdown(
             id='time-frame-dropdown',
-            options=[{'label':x, 'value':x} for x in df.time_frame.unique()],
+            options=time_frames,
             value='Intraday'
         ),
         dcc.Dropdown(
@@ -119,12 +123,12 @@ def update_graph(stock_symbol, n_clicks, time_frame_value, chart_type_value,time
     if n_clicks>clicks:
         symbol = stock_symbol
         clicks = n_clicks
-        file_path = f'{stock_symbol.upper()}.csv'
+        file_path = stock_symbol.upper()+".csv"
         if not os.path.isfile(file_path):
             try:
                 lookup(stock_symbol)
             except Exception as e:
-                return make_subplots().update_layout(title_text=f'Error: {str(e)}', title_font_color='red')
+                return make_subplots().update_layout(title_text='Error: '+str(e), title_font_color='red')
         try:
             df = pd.read_csv(file_path)
         except:
@@ -135,7 +139,7 @@ def update_graph(stock_symbol, n_clicks, time_frame_value, chart_type_value,time
             try:
                 lookup(stock_symbol)
             except Exception as e:
-                return make_subplots().update_layout(title_text=f'Error: {str(e)}', title_font_color='red')
+                return make_subplots().update_layout(title_text='Error: '+str(e), title_font_color='red')
             
     print(n_clicks,clicks)
     stock_data = df[df.time_frame == time_frame_value]
@@ -151,7 +155,7 @@ def update_graph(stock_symbol, n_clicks, time_frame_value, chart_type_value,time
     
     return {
         'data': data,
-        'layout': go.Layout(title=f'{stock_symbol.upper()} - {time_frame_value} Prices')
+        'layout': go.Layout(title=stock_symbol.upper() +" - "+ time_frame_value + " Prices")
     }
 
 if __name__ == '__main__':
