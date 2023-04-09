@@ -6,6 +6,7 @@ import alpha_vantage.timeseries as ts
 import pandas as pd
 import os
 import datetime
+import time
 
 load_dotenv()
 api_key = os.getenv("api_key")
@@ -55,7 +56,6 @@ df = pd.read_csv(file_path)
 clicks = 0
 
 app = Dash(__name__)
-
 app.layout = html.Div([
     html.H1(children=f'Stock Prices', style={'textAlign':'center'}),
     html.Div([
@@ -66,7 +66,6 @@ app.layout = html.Div([
             style={'width': '30%', 'marginRight': '10px'}
         ),
         html.Button('Fetch Data', id='fetch-data-button', n_clicks=0),
-        dcc.Loading(id='loading', children=[html.Div(id='output')]),
         dcc.Dropdown(
             id='time-frame-dropdown',
             options=[{'label':x, 'value':x} for x in df.time_frame.unique()],
@@ -79,8 +78,15 @@ app.layout = html.Div([
             value='candlestick'
         )
     ], style={'width': '50%', 'display': 'inline-block'}),
-    dcc.Graph(id='graph-content')
+    html.Div(id='graph-wrapper', children=[
+        dcc.Loading(
+            id="loading",
+            type="default",
+            children=dcc.Graph(id='graph-content')
+        )
+    ])
 ])
+
 
 @callback(
     Output('graph-content', 'figure'),
