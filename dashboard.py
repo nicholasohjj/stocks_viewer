@@ -1,4 +1,5 @@
 from dash import Dash, html, dcc, callback, Output, Input, State
+from plotly.subplots import make_subplots
 from dotenv import load_dotenv
 import plotly.graph_objs as go
 import alpha_vantage.timeseries as ts
@@ -65,7 +66,7 @@ app.layout = html.Div([
             style={'width': '30%', 'marginRight': '10px'}
         ),
         html.Button('Fetch Data', id='fetch-data-button', n_clicks=0),
-
+        dcc.Loading(id='loading', children=[html.Div(id='output')]),
         dcc.Dropdown(
             id='time-frame-dropdown',
             options=[{'label':x, 'value':x} for x in df.time_frame.unique()],
@@ -102,14 +103,18 @@ def update_graph(stock_symbol, n_clicks, time_frame_value, chart_type_value,time
             try:
                 lookup(stock_symbol)
             except Exception as e:
-                return {'data': [], 'layout': go.Layout(title=str(e))}
-        df = pd.read_csv(file_path)
+                return make_subplots().update_layout(title_text=f'Error: {str(e)}', title_font_color='red')
+        try:
+            df = pd.read_csv(file_path)
+        except:
+            return make_subplots().update_layout(title_text='Error: Invalid symbol', title_font_color='red')
+
 
         if check_outdated(df):
             try:
                 lookup(stock_symbol)
             except Exception as e:
-                return {'data': [], 'layout': go.Layout(title=str(e))}
+                return make_subplots().update_layout(title_text=f'Error: {str(e)}', title_font_color='red')
             
     print(n_clicks,clicks)
     stock_data = df[df.time_frame == time_frame_value]
