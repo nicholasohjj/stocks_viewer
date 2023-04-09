@@ -25,7 +25,6 @@ def get_data(symbol, time_frame, ts_function, interval=None, outputsize="compact
     return data
 
 def lookup(symbol):
-    print(f"LOOKUP {symbol}")
     try:
         intraday_data = get_data(symbol, "Intraday", "ts.get_intraday", interval='60min')
         daily_data = get_data(symbol, "Daily adjusted",  ts.get_daily_adjusted)
