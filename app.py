@@ -33,7 +33,7 @@ def lookup(symbol):
 
         data = pd.concat([intraday_data, daily_data, weekly_data, monthly_data])
 
-        data.to_csv(f'{symbol.upper()}.csv', index=True)
+        data.to_csv('{}.csv'.format(symbol.upper()), index=True)
         return data
     except ValueError:
         print("Invalid symbol or API key")
