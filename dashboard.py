@@ -1,12 +1,11 @@
-from dash import Dash, html, dcc, callback, Output, Input, State
+from dash import Dash, html, dcc, callback, Output, Input, State, dependencies
 from plotly.subplots import make_subplots
 from dotenv import load_dotenv
 import plotly.graph_objs as go
 import alpha_vantage.timeseries as ts
 import pandas as pd
 import os
-import datetime
-import time
+from datetime import datetime as dt
 
 load_dotenv()
 api_key = os.getenv("api_key")
@@ -44,8 +43,8 @@ def lookup(symbol):
 def check_outdated(df):
     date = df[df.time_frame == "Daily adjusted"].iloc[-1]["date"]
     date = str(date)
-    date = datetime.datetime.strptime(date,"%Y-%m-%d %H:%M:%S")
-    diff = date-datetime.datetime.now()
+    date = dt.strptime(date,"%Y-%m-%d %H:%M:%S")
+    diff = date-dt.now()
     diff = abs(int(diff.days))
 
     return diff>4
@@ -59,6 +58,7 @@ app = Dash(__name__)
 app.layout = html.Div([
     html.H1(children=f'Stock Prices', style={'textAlign':'center'}),
     html.Div([
+    html.Div([
         dcc.Input(
             id='symbol-input',
             type='search',
@@ -66,6 +66,16 @@ app.layout = html.Div([
             style={'width': '30%', 'marginRight': '10px'}
         ),
         html.Button('Fetch Data', id='fetch-data-button', n_clicks=0),
+    ]),
+    html.Div([
+    html.Label('Select Date Range'),
+    dcc.DatePickerRange(
+        id='date-picker-range',
+        start_date=dt.today(),
+        end_date=dt.now()
+    ),
+    html.Div(id='output')
+    ]),
         dcc.Dropdown(
             id='time-frame-dropdown',
             options=[{'label':x, 'value':x} for x in df.time_frame.unique()],
@@ -86,6 +96,12 @@ app.layout = html.Div([
         )
     ])
 ])
+@app.callback(
+    dependencies.Output('output', 'children'),
+    [dependencies.Input('date-picker-range', 'start_date'),
+     dependencies.Input('date-picker-range', 'end_date')])
+def update_output(start_date, end_date):
+    return
 
 
 @callback(
