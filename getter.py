@@ -5,11 +5,10 @@ import plotly.graph_objects as go
 import os
 import time
 import json
-import dashboard_test
 
 load_dotenv()
 
-ts = TimeSeries(key="K2J7THYH6AB78L5M",output_format="pandas")
+ts = TimeSeries(key=os.getenv("api-key"),output_format="pandas")
 
 TIME_FRAMES = None
 with open("time_frames.json") as file:
