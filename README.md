@@ -1,9 +1,6 @@
 
 <h1 align="center">
-  <br>
-  <br>
     Stockvision
-  <br>
 </h1>
 
 <p align="center">
