@@ -7,9 +7,7 @@
 </h1>
 
 <p align="center">
-  <a href="#about-offcharge">About OffCharge</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#license">License</a>
+  <a href="#about-offcharge">About</a> •
 </p>
 
 ## About
