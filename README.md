@@ -20,14 +20,21 @@ StockVision is a Python program that utilizes the Dash and Plotly libraries to v
 * Git
 
 ## Installation
+1. Clone the repository:
 
 ```sh
 git clone https://github.com/nicholasohjj/StockVision.git
-
+```
+2. Navigate to the repository directory:
+```sh
 cd StockVision
-
+```
+3. Install the required dependencies:
+```sh
 pip install -r requirements.txt
-
+```
+4. Create a .env file with your Alpha Vantage API key:
+```sh
 echo "api-key=YOUR_API_KEY_HERE" > .env
 ```
 ## Usage
