@@ -54,12 +54,13 @@ with open("time_frames.json") as file:
     data = json.load(file)
     for item in data:
         time_frames.append(data[item]["time"])
-
+symbol = "AAPL"
+df = pd.read_csv(symbol+".csv")
 clicks = 0
 
 app = Dash(__name__)
 app.layout = html.Div([
-    html.H1(children='Stock Prices', style={'textAlign':'center'}),
+    html.H1(children='StockVision', style={'textAlign':'center'}),
     html.Div([
     html.Div([
         dcc.Input(
@@ -150,6 +151,27 @@ def update_graph(stock_symbol, n_clicks, time_frame_value, chart_type_value,time
                                high=stock_data['2. high'],
                                low=stock_data['3. low'],
                                close=stock_data['4. close'])]
+        return {
+            'data': data,
+            'layout': go.Layout(title=stock_symbol.upper() +" - "+ time_frame_value + " Prices",
+                                yaxis=dict(
+                                    title='Price ($)',
+                                    titlefont=dict(size=16),
+                                    tickfont=dict(size=14),
+                                    gridcolor='rgba(0, 0, 0, 0.1)',
+                                    zerolinecolor='rgba(0, 0, 0, 0.1)'
+                                ),         
+                                plot_bgcolor='rgb(250, 242, 242)',
+                                paper_bgcolor='rgb(250, 242, 242)',
+                                font=dict(
+                                family="Courier New, monospace",
+                                size=12,
+                                color="black"
+                                ),
+                                
+)            
+        }
+
     elif chart_type_value == 'line':
         data = [go.Scatter(x=stock_data['date'], y=stock_data['4. close'], mode='lines')]
     
