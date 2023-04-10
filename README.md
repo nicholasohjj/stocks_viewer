@@ -8,6 +8,10 @@
 
 <p align="center">
   <a href="#about-offcharge">About</a> •
+  <a href="#requirements">Requirements</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a>
+
 </p>
 
 ## About
@@ -29,7 +33,7 @@ pip install -r requirements.txt
 
 echo "api-key=YOUR_API_KEY_HERE" > .env
 ```
-## Installation
+## Usage
 1. Start the program by running the following command:
 
 ```sh
