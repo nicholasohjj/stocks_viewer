@@ -1,4 +1,5 @@
-from dash import Dash, html, dcc, callback, Output, Input, State, dependencies
+import dash
+from dash import Dash, html, dcc, Output, Input, State
 from plotly.subplots import make_subplots
 from dotenv import load_dotenv
 import plotly.graph_objs as go
@@ -71,15 +72,6 @@ app.layout = html.Div([
         ),
         html.Button('Fetch Data', id='fetch-data-button', n_clicks=0),
     ]),
-    html.Div([
-    html.Label('Select Date Range'),
-    dcc.DatePickerRange(
-        id='date-picker-range',
-        start_date=dt.today(),
-        end_date=dt.now()
-    ),
-    html.Div(id='output')
-    ]),
         dcc.Dropdown(
             id='time-frame-dropdown',
             options=time_frames,
@@ -98,36 +90,41 @@ app.layout = html.Div([
             type="default",
             children=dcc.Graph(id='graph-content')
         )
-    ])
+    ]),
+    html.Div(id='output-container', children=[
+    html.P(id='output-text', children='Output will be displayed here')
+    ])  
 ])
+
 @app.callback(
-    dependencies.Output('output', 'children'),
-    [dependencies.Input('date-picker-range', 'start_date'),
-     dependencies.Input('date-picker-range', 'end_date')])
-def update_output(start_date, end_date):
-    return
-
-
-@callback(
-    Output('graph-content', 'figure'),
-    Input('symbol-input', 'value'),
-    Input('fetch-data-button', 'n_clicks'),
-    Input('time-frame-dropdown', 'value'),
-    Input('chart-type-dropdown', 'value'),
-    State('fetch-data-button', 'n_clicks_timestamp')
-
+    Output("symbol-input","value"),
+    Input('symbol-input', 'value')
 )
-def update_graph(stock_symbol, n_clicks, time_frame_value, chart_type_value,timestamp):
+
+def update_symbol(input):
+    global symbol
+    symbol = input
+    return symbol
+
+
+@app.callback(
+    Output('graph-content', 'figure'),
+    [
+        Input('fetch-data-button', 'n_clicks'),
+        Input('time-frame-dropdown', 'value'),
+        Input('chart-type-dropdown', 'value')
+                ],
+)
+def update_graph(n_clicks, time_frame_value, chart_type_value):
     global df
     global symbol
     global clicks
-    if n_clicks>clicks:
-        symbol = stock_symbol
-        clicks = n_clicks
-        file_path = stock_symbol.upper()+".csv"
+    trigger = dash.callback_context.triggered[0]['prop_id'].split('.')[0]
+    if trigger == "fetch-data-button":
+        file_path = symbol.upper()+".csv"
         if not os.path.isfile(file_path):
             try:
-                lookup(stock_symbol)
+                lookup(symbol)
             except Exception as e:
                 return make_subplots().update_layout(title_text='Error: '+str(e), title_font_color='red')
         try:
@@ -135,50 +132,52 @@ def update_graph(stock_symbol, n_clicks, time_frame_value, chart_type_value,time
         except:
             return make_subplots().update_layout(title_text='Error: Invalid symbol', title_font_color='red')
 
-
         if check_outdated(df):
             try:
-                lookup(stock_symbol)
+                lookup(symbol)
             except Exception as e:
                 return make_subplots().update_layout(title_text='Error: '+str(e), title_font_color='red')
-            
-    print(n_clicks,clicks)
-    stock_data = df[df.time_frame == time_frame_value]
-    
-    if chart_type_value == 'candlestick':
-        data = [go.Candlestick(x=stock_data['date'],
-                               open=stock_data['1. open'],
-                               high=stock_data['2. high'],
-                               low=stock_data['3. low'],
-                               close=stock_data['4. close'])]
+
+    if trigger is not True or trigger in ["time-frame-dropdown", "fetch-data-button", "chart-type-dropdown"]:
+        stock_data = df[df.time_frame == time_frame_value]
+
+        if chart_type_value == 'candlestick':
+            data = [go.Candlestick(
+                x=stock_data['date'],
+                open=stock_data['1. open'],
+                high=stock_data['2. high'],
+                low=stock_data['3. low'],
+                close=stock_data['4. close']
+            )]
+            title = symbol.upper() + " - " + time_frame_value + " Prices"
+        elif chart_type_value == 'line':
+            data = [go.Scatter(
+                x=stock_data['date'],
+                y=stock_data['4. close'],
+                mode='lines'
+            )]
+            title = symbol.upper() + " - " + time_frame_value + " Prices"
+
         return {
             'data': data,
-            'layout': go.Layout(title=stock_symbol.upper() +" - "+ time_frame_value + " Prices",
-                                yaxis=dict(
-                                    title='Price ($)',
-                                    titlefont=dict(size=16),
-                                    tickfont=dict(size=14),
-                                    gridcolor='rgba(0, 0, 0, 0.1)',
-                                    zerolinecolor='rgba(0, 0, 0, 0.1)'
-                                ),         
-                                plot_bgcolor='rgb(250, 242, 242)',
-                                paper_bgcolor='rgb(250, 242, 242)',
-                                font=dict(
-                                family="Courier New, monospace",
-                                size=12,
-                                color="black"
-                                ),
-                                
-)            
+            'layout': go.Layout(
+                title=title,
+                yaxis=dict(
+                    title='Price ($)',
+                    titlefont=dict(size=16),
+                    tickfont=dict(size=14),
+                    gridcolor='rgba(0, 0, 0, 0.1)',
+                    zerolinecolor='rgba(0, 0, 0, 0.1)'
+                ),
+                plot_bgcolor='rgb(250, 242, 242)',
+                paper_bgcolor='rgb(250, 242, 242)',
+                font=dict(
+                    family="Courier New, monospace",
+                    size=12,
+                    color="black"
+                ),
+            )
         }
-
-    elif chart_type_value == 'line':
-        data = [go.Scatter(x=stock_data['date'], y=stock_data['4. close'], mode='lines')]
-    
-    return {
-        'data': data,
-        'layout': go.Layout(title=stock_symbol.upper() +" - "+ time_frame_value + " Prices")
-    }
 
 if __name__ == '__main__':
     app.run_server(debug=True)
