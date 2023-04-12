@@ -4,6 +4,126 @@
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
         {
+            "title": "Investing in Tech Stocks? 1 New Data Point Suggests You Tread Lightly",
+            "url": "https://www.fool.com/investing/2023/04/12/investing-tech-stocks-new-data-point-tread-lightly/",
+            "time_published": "20230412T090600",
+            "authors": [
+                "Sean Williams"
+            ],
+            "summary": "This figure is bound to have tech investors raising an eyebrow.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F727572%2Fsmartphone-retail-investing-robinhood-buy-sell-retire-stock-market-crypto-getty.jpg&op=resize&w=700",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.972756"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.576289"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.063123,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.187027",
+                    "ticker_sentiment_score": "0.004735",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.187027",
+                    "ticker_sentiment_score": "0.004735",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.223522",
+                    "ticker_sentiment_score": "0.216813",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Stock Market Sell-Off: Is Apple a Buy?",
+            "url": "https://www.fool.com/investing/2023/04/12/stock-market-sell-off-is-apple-a-buy/",
+            "time_published": "20230412T090400",
+            "authors": [
+                "Dani Cook"
+            ],
+            "summary": "Apple recently suffered a steep decline in PC shipments, but that doesn't hinder its long-term prospects.",
+            "banner_image": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F727604%2Fgrowth-5.jpg&op=resize&h=340",
+            "source": "Motley Fool",
+            "category_within_source": "n/a",
+            "source_domain": "www.fool.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99793"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.089529,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HPQ",
+                    "relevance_score": "0.056011",
+                    "ticker_sentiment_score": "-0.138",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LNVGF",
+                    "relevance_score": "0.056011",
+                    "ticker_sentiment_score": "-0.138",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.51768",
+                    "ticker_sentiment_score": "0.217485",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BRK-A",
+                    "relevance_score": "0.056011",
+                    "ticker_sentiment_score": "0.139002",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Warren Buffett gives reason for surprise sale of stake in Taiwan's TSMC | Business",
             "url": "https://www.cnn.com/2023/04/12/tech/taiwan-buffett-tsmc-sale-hnk-intl/index.html",
             "time_published": "20230412T053700",
@@ -3099,182 +3219,6 @@
                     "ticker": "PXD",
                     "relevance_score": "0.193207",
                     "ticker_sentiment_score": "0.048997",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Top Stories Monday, Apr. 10: Joe Biden Plans On Running For Re-Election In 2024, Apple Clocks Highest Decline In Q1 PC Shipments - Apple  ( NASDAQ:AAPL ) , Baidu  ( NASDAQ:BIDU ) ",
-            "url": "https://www.benzinga.com/general/biotech/23/04/31727620/joe-biden-plans-on-running-for-re-election-in-2024-apple-clocks-highest-decline-in-q1-falling-pc-",
-            "time_published": "20230410T144203",
-            "authors": [
-                "Vandana Singh"
-            ],
-            "summary": "On Monday, U.S. President Joe Biden said he plans to run for president in 2024 but was not prepared to announce it yet. \"I plan on running ... but we're not prepared to announce it yet,\" Biden said in an interview with NBC's \"Today\" show before the White House Easter Egg Roll.",
-            "banner_image": "https://cdn.benzinga.com/files/images/story/2023/04/10/joe_biden_48605381202_0.jpg?optimize=medium&dpr=2&auto=webp&width=3840",
-            "source": "Benzinga",
-            "category_within_source": "General",
-            "source_domain": "www.benzinga.com",
-            "topics": [
-                {
-                    "topic": "Retail & Wholesale",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.161647"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": -0.131554,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "VORB",
-                    "relevance_score": "0.1145",
-                    "ticker_sentiment_score": "-0.11316",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.226653",
-                    "ticker_sentiment_score": "-0.161456",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "DG",
-                    "relevance_score": "0.076479",
-                    "ticker_sentiment_score": "-0.089413",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "HNHPF",
-                    "relevance_score": "0.076479",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "GM",
-                    "relevance_score": "0.076479",
-                    "ticker_sentiment_score": "-0.122475",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "RYLPF",
-                    "relevance_score": "0.038284",
-                    "ticker_sentiment_score": "-0.035537",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "BIDU",
-                    "relevance_score": "0.1145",
-                    "ticker_sentiment_score": "-0.079981",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "DELL",
-                    "relevance_score": "0.076479",
-                    "ticker_sentiment_score": "-0.217168",
-                    "ticker_sentiment_label": "Somewhat-Bearish"
-                },
-                {
-                    "ticker": "ESALF",
-                    "relevance_score": "0.038284",
-                    "ticker_sentiment_score": "0.0",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FOX",
-                    "relevance_score": "0.1145",
-                    "ticker_sentiment_score": "0.006973",
-                    "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Wall Street drops as job gains fuel rate-hike worries; Nasdaq falls 1.2%",
-            "url": "https://www.business-standard.com/world-news/wall-street-drops-as-job-gains-fuel-rate-hike-worries-nasdaq-falls-1-2-123041000908_1.html",
-            "time_published": "20230410T143335",
-            "authors": [
-                "Business Standard"
-            ],
-            "summary": "Wall Street drops as job gains fuel rate-hike worries. Nasdaq falls ... Business Standard ...",
-            "banner_image": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-03/30/full/1680183144-4058.jpg?im=FeatureCrop,width=826,height=465",
-            "source": "Business Standard",
-            "category_within_source": "GoogleRSS",
-            "source_domain": "www.business-standard.com",
-            "topics": [
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.905476"
-                },
-                {
-                    "topic": "Manufacturing",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Finance",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.012096,
-            "overall_sentiment_label": "Neutral",
-            "ticker_sentiment": [
-                {
-                    "ticker": "MSFT",
-                    "relevance_score": "0.079392",
-                    "ticker_sentiment_score": "0.072347",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "AAPL",
-                    "relevance_score": "0.079392",
-                    "ticker_sentiment_score": "0.072347",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "C",
-                    "relevance_score": "0.079392",
-                    "ticker_sentiment_score": "-0.039541",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "TSLA",
-                    "relevance_score": "0.079392",
-                    "ticker_sentiment_score": "-0.141303",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "WFC",
-                    "relevance_score": "0.079392",
-                    "ticker_sentiment_score": "-0.039541",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "FRC",
-                    "relevance_score": "0.079392",
-                    "ticker_sentiment_score": "-0.038546",
-                    "ticker_sentiment_label": "Neutral"
-                },
-                {
-                    "ticker": "JPM",
-                    "relevance_score": "0.079392",
-                    "ticker_sentiment_score": "-0.039541",
                     "ticker_sentiment_label": "Neutral"
                 }
             ]

@@ -1,9 +1,0 @@
-{
-    "build": {
-      "env": {
-        "PYTHONUNBUFFERED": "true",
-        "PLOTLY_RENDERER": "node"
-      }
-    }
-  }
-  

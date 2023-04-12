@@ -86,32 +86,36 @@ def truncate_title(title, max_words=20):
 )
 
 def load_news(click):
+    if symbol == None:
+        return html.Div()
     if stored_symbol != symbol:
         data = lookup_news(symbol)
         if data == None:
             return html.Div()
-        feed = data["feed"]
-        news_divs = [
-            html.Div(
-                [
-                    html.Img(src=item['banner_image'], className='news-image'),
-                    html.H3(children=truncate_title(item['title']), className='news-title', style={'margin': '10px 0'}),
-                    html.P(children=item['summary'], className='news-summary'),
-                    html.P('Source: ' + item['source'], className='news-source'),
-                    html.P('Category: ' + item['category_within_source'], className='news-category'),
-                    html.P('Sentiment: ' + item['overall_sentiment_label'], className='news-sentiment'),
-                    html.A('Read more', href=item['url'], target='_blank', className='news-link')
-                ],
-                className='news-item'
-            ) 
-            for item in feed
-        ]
-
-        # Add the last row if there are any remaining news items
-
-        return html.Div(news_divs, className='news-container')
     else:
-        return 
+        data = None
+        with open('ticker_news/'+stored_symbol.upper()+'.json', 'r') as file:
+            data = json.load(file)
+    
+    feed = data["feed"]
+    news_divs = [
+        html.Div(
+            [
+                html.Img(src=item['banner_image'], className='news-image'),
+                html.H3(children=truncate_title(item['title']), className='news-title', style={'margin': '10px 0'}),
+                html.P(children=item['summary'], className='news-summary'),
+                html.P('Source: ' + item['source'], className='news-source'),
+                html.P('Sentiment: ' + item['overall_sentiment_label'], className='news-sentiment'),
+                html.A('Read more', href=item['url'], target='_blank', className='news-link')
+            ],
+            className='news-item'
+        ) 
+        for item in feed
+    ]
+
+    # Add the last row if there are any remaining news items
+
+    return html.Div(news_divs, className='news-container')
 
 @app.callback(
     Output('graph-content', 'figure'),
