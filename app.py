@@ -97,9 +97,6 @@ def load_news(click):
             ) 
             for item in feed
         ]
-
-        # Add the last row if there are any remaining news items
-
         return html.Div(news_divs, className='news-container')
     else:
         return 
