@@ -9,7 +9,7 @@ import json
 from getters.get_data import lookup
 from getters.check_update import check_outdated
 from setters.chart import chart
-
+from getters.get_news import lookup_news
 
 load_dotenv()
 
@@ -25,6 +25,9 @@ with open("time_frames.json") as file:
 
 app = Dash(__name__)
 app.layout = html.Div([
+    html.Link(
+    rel='stylesheet',
+    href='/assets/styles.css'  ),
     html.H1(children='StockVision', style={'textAlign':'center'}),
     html.Div([
     html.Div([
@@ -55,9 +58,7 @@ app.layout = html.Div([
             children=dcc.Graph(id='graph-content')
         )
     ]),
-    html.Div(id='output-container', children=[
-    html.P(id='output-text', children='Output will be displayed here')
-    ])  
+    html.Div(id='output-news')  
 ])
 
 @app.callback(
@@ -70,6 +71,38 @@ def update_symbol(input):
     symbol = input
     return symbol
 
+@app.callback(
+        Output("output-news", "children"),
+        Input('fetch-data-button', 'n_clicks')
+)
+
+def load_news(click):
+    if stored_symbol != symbol:
+        data = lookup_news(symbol)
+        if data == None:
+            return html.Div()
+        feed = data["feed"]
+        news_divs = [
+            html.Div(
+                [
+                    html.Img(src=item['banner_image'], className='news-image'),
+                    html.H3(children=item['title'], style={'margin': '10px 0'}),
+                    html.P(children=item['summary'], style={'margin': '0'}),
+                    html.P('Source: ' + item['source'], style={'margin': '5px 0'}),
+                    html.P('Category: ' + item['category_within_source'], style={'margin': '5px 0'}),
+                    html.P('Sentiment: ' + item['overall_sentiment_label'], style={'margin': '5px 0'}),
+                    html.A('Read more', href=item['url'], target='_blank', style={'margin': '10px 0'})
+                ],
+                className='news-item'
+            ) 
+            for item in feed
+        ]
+
+        # Add the last row if there are any remaining news items
+
+        return html.Div(news_divs, className='news-container')
+    else:
+        return 
 
 @app.callback(
     Output('graph-content', 'figure'),
@@ -81,8 +114,6 @@ def update_symbol(input):
 )
 def update_graph(n_clicks, time_frame_value, chart_type_value):
     global stored_symbol
-    global clicks
-    global df
 
     trigger = dash.callback_context.triggered[0]['prop_id'].split('.')[0]
 
@@ -94,13 +125,12 @@ def update_graph(n_clicks, time_frame_value, chart_type_value):
             error = lookup(stored_symbol)
             if error:
                 return error
+        df = pd.read_csv(folder_path+stored_symbol+".csv")
+
+        if check_outdated(stored_symbol, df):
+            error = lookup(stored_symbol)
     
     df = pd.read_csv(folder_path+stored_symbol+".csv")
-
-    if check_outdated(df):
-        error = lookup(stored_symbol)
-        if error:
-            return error
         
     stock_data = df[df.time_frame == time_frame_value]
 
@@ -126,6 +156,7 @@ def update_graph(n_clicks, time_frame_value, chart_type_value):
             ),
         )
     }
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
