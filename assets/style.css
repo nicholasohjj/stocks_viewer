@@ -17,7 +17,7 @@
 }
 
 .symbol-input {
-    width: 70%;
+    flex: 1;
     margin-right: 10px;
 }
 
@@ -28,12 +28,13 @@
 .dropdown-container {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .dropdown {
     margin-left: 10px;
     margin-right: 10px;
-    width: 150px;
+    width: 200px; 
 }
 
 .graph-wrapper {

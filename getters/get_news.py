@@ -19,7 +19,7 @@ def lookup_news(symbol):
         if not data["items"]:
             return "Maximum calls reached"
 
-        with open("ticker_news/"+symbol+".json","w") as json_file:
+        with open("ticker_news/"+symbol.upper()+".json","w") as json_file:
             json.dump(data, json_file, indent=4)
 
     except:
@@ -27,7 +27,7 @@ def lookup_news(symbol):
     
     json_data = None
     try:
-        with open('ticker_news/aapl.json', 'r') as file:
+        with open('ticker_news/'+symbol.upper()+'.json', 'r') as file:
             json_data = json.load(file)
 
         data = json_data
