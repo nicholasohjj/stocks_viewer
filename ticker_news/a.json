@@ -1,0 +1,2668 @@
+{
+    "items": "50",
+    "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
+    "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+    "feed": [
+        {
+            "title": "Mission Bio Partners with Fulgent Genetics to Broaden Accessibility of Single-Cell Multi-Omics for Drug Development and Clinical Research",
+            "url": "https://www.prnewswire.com/news-releases/mission-bio-partners-with-fulgent-genetics-to-broaden-accessibility-of-single-cell-multi-omics-for-drug-development-and-clinical-research-301793829.html",
+            "time_published": "20230411T120000",
+            "authors": [
+                "Mission Bio"
+            ],
+            "summary": "Mission Bio Partners with Fulgent Genetics to Broaden Accessibility ... PR ...",
+            "banner_image": "https://mma.prnewswire.com/media/1453229/MissionBio_Logo.jpg?p=facebook",
+            "source": "PR Newswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.prnewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.249789,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.048133",
+                    "ticker_sentiment_score": "0.136387",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FLGT",
+                    "relevance_score": "0.453905",
+                    "ticker_sentiment_score": "0.221497",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "In Vivo Toxicology Market to Cross USD 9.5 Bn Revenue by 2033 | TMR Study",
+            "url": "https://www.benzinga.com/pressreleases/23/04/g31732307/in-vivo-toxicology-market-to-cross-usd-9-5-bn-revenue-by-2033-tmr-study",
+            "time_published": "20230410T190000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Wilmington, Delaware, United States, April 11, 2023 ( GLOBE NEWSWIRE ) -- According to market research by TMR, the global in vivo toxicology industry is expected to witness significant growth during the forecast period from 2023 to 2033.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.538269"
+                }
+            ],
+            "overall_sentiment_score": 0.311884,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.044222",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "A: 3 Healthy Looking Stocks to Own This Week",
+            "url": "https://stocknews.com/news/a-brkr-smlr-3-healthy-looking-stocks-to-own-this-week/",
+            "time_published": "20230410T115850",
+            "authors": [],
+            "summary": "The healthcare industry is expected to remain on a positive growth trajectory, given the inelastic demand the industry enjoys for its products and services. Moreover, technological advancements and rising health awareness among individuals could benefit the industry.",
+            "banner_image": "https://stocknews.com/wp-content/uploads/2022/03/shutterstock_745024336-scaled.jpg",
+            "source": "Stocknews.com",
+            "category_within_source": "n/a",
+            "source_domain": "stocknews.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99977"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.204257,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BRKR",
+                    "relevance_score": "0.335899",
+                    "ticker_sentiment_score": "0.251168",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.028868",
+                    "ticker_sentiment_score": "0.132801",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HCSG",
+                    "relevance_score": "0.028868",
+                    "ticker_sentiment_score": "0.144087",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SMLR",
+                    "relevance_score": "0.227805",
+                    "ticker_sentiment_score": "0.098428",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRYPTO:NANO",
+                    "relevance_score": "0.028868",
+                    "ticker_sentiment_score": "0.138581",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Agilent  ( A )  Boosts Spectrophotometer Reach With Cary System",
+            "url": "https://www.zacks.com/stock/news/2074905/agilent-a-boosts-spectrophotometer-reach-with-cary-system",
+            "time_published": "20230405T140100",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent (A) strengthens its Life Sciences and Applied Markets Group segment with the launch of new Cary 3500 Flexible UV-Vis system.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/6e/815.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.345546,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.189175",
+                    "ticker_sentiment_score": "0.238329",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.31006",
+                    "ticker_sentiment_score": "0.214237",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ADI",
+                    "relevance_score": "0.31006",
+                    "ticker_sentiment_score": "0.214237",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "RSSS",
+                    "relevance_score": "0.063594",
+                    "ticker_sentiment_score": "0.171522",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Bioinformatics Market Revenue to Cross USD 44.9 Bn by 2028 with CAGR of 5.9% | TMR Study",
+            "url": "https://www.benzinga.com/pressreleases/23/04/g31677115/bioinformatics-market-revenue-to-cross-usd-44-9-bn-by-2028-with-cagr-of-5-9-tmr-study",
+            "time_published": "20230405T123000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Wilmington, Delaware, United States, April 05, 2023 ( GLOBE NEWSWIRE ) -- According to the exclusive research by Transparency Market Research, the global bioinformatics market was valued USD 24.7 Bn in 2020 and is projected to reach USD 44.9 Bn by 2028 with CAGR of 5.9%.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.227947,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.036983",
+                    "ticker_sentiment_score": "0.120418",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ILMN",
+                    "relevance_score": "0.036983",
+                    "ticker_sentiment_score": "0.120418",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Here's How Much You Would Have Made Owning Agilent Technologies Stock In The Last 5 Years - Agilent Technologies  ( NYSE:A ) ",
+            "url": "https://www.benzinga.com/news/earnings/23/04/31638633/heres-how-much-you-would-have-made-owning-agilent-technologies-stock-in-the-last-5-years",
+            "time_published": "20230403T163032",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Agilent Technologies A has outperformed the market over the past 5 years by 7.13% on an annualized basis producing an average annual return of 16.68%. Currently, Agilent Technologies has a market capitalization of $40.69 billion.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.160819,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.588876",
+                    "ticker_sentiment_score": "0.287339",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "What's in the Offing for SMART Global  ( SGH )  in Q2 Earnings?",
+            "url": "https://www.zacks.com/stock/news/2073916/whats-in-the-offing-for-smart-global-sgh-in-q2-earnings",
+            "time_published": "20230403T155200",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "SMART Global' (SGH) second-quarter fiscal 2023 results are likely to reflect strength in Intelligent Platform Solutions.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/17/1716.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999998"
+                }
+            ],
+            "overall_sentiment_score": 0.328575,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.075635",
+                    "ticker_sentiment_score": "0.05918",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AEO",
+                    "relevance_score": "0.22421",
+                    "ticker_sentiment_score": "0.099787",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SGH",
+                    "relevance_score": "0.493666",
+                    "ticker_sentiment_score": "0.200617",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AZO",
+                    "relevance_score": "0.295867",
+                    "ticker_sentiment_score": "0.337136",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "SEMI ESD Alliance 2023 CEO Outlook to Highlight Future of Chip Design and Semiconductor Industries",
+            "url": "https://www.prnewswire.com/in/news-releases/semi-esd-alliance-2023-ceo-outlook-to-highlight-future-of-chip-design-and-semiconductor-industries-301786776.html",
+            "time_published": "20230403T140000",
+            "authors": [
+                "SEMI"
+            ],
+            "summary": "SEMI ESD Alliance 2023 CEO Outlook to Highlight Future of Chip ... PR ...",
+            "banner_image": "https://mma.prnewswire.com/media/836033/SEMI___Electronic_System_Design_Alliance_Logo.jpg?p=facebook",
+            "source": "PR Newswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.prnewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.175699,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.113062",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "KEYS",
+                    "relevance_score": "0.113062",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "SEMI ESD Alliance 2023 CEO Outlook to Highlight Future of Chip Design and Semiconductor Industries",
+            "url": "https://www.newswire.ca/news-releases/semi-esd-alliance-2023-ceo-outlook-to-highlight-future-of-chip-design-and-semiconductor-industries-844815051.html",
+            "time_published": "20230403T140000",
+            "authors": [
+                "SEMI"
+            ],
+            "summary": "SEMI ESD Alliance 2023 CEO Outlook to Highlight Future of Chip ... Canada ...",
+            "banner_image": "https://mma.prnewswire.com/media/836033/SEMI___Electronic_System_Design_Alliance_Logo.jpg?p=facebook",
+            "source": "Canada Newswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.newswire.ca",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.175699,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.113062",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "KEYS",
+                    "relevance_score": "0.113062",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "4 GARP Stocks to Scoop Up for Maximum Returns",
+            "url": "https://www.zacks.com/stock/news/2073003/4-garp-stocks-to-scoop-up-for-maximum-returns",
+            "time_published": "20230331T133600",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Try the GARP strategy while seeking a profitable portfolio of stocks offering optimum value and growth investing. W.W. Grainger (GWW), Ameriprise Financial, Agilent and Bloomin' Brands hold promise.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default225.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.995973"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999965"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.437259,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMP",
+                    "relevance_score": "0.202366",
+                    "ticker_sentiment_score": "0.25026",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BLMN",
+                    "relevance_score": "0.162528",
+                    "ticker_sentiment_score": "0.215024",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.081691",
+                    "ticker_sentiment_score": "0.164513",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Agilent Technologies  ( NYSE:A )  Rating Lowered to Buy at StockNews.com",
+            "url": "https://www.defenseworld.net/2023/03/31/agilent-technologies-nysea-rating-lowered-to-buy-at-stocknews-com.html",
+            "time_published": "20230331T055442",
+            "authors": [
+                "Defense World Staff"
+            ],
+            "summary": "Agilent Technologies ( NYSE:A ) Rating Lowered to Buy at ... Defense World ...",
+            "banner_image": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/agilent-technologies-inc-logo.png?v=20221024144229&w=240&h=240&zc=2",
+            "source": "Stocknews.com",
+            "category_within_source": "n/a",
+            "source_domain": "www.defenseworld.net",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Retail & Wholesale",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.99977"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.25"
+                },
+                {
+                    "topic": "Finance",
+                    "relevance_score": "0.25"
+                }
+            ],
+            "overall_sentiment_score": 0.20309,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.78982",
+                    "ticker_sentiment_score": "0.335557",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "WFC",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.079999",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.176003",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "RH",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.057028",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "EVGO",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.057028",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSBHF",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.176003",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "SOFI",
+                    "relevance_score": "0.058759",
+                    "ticker_sentiment_score": "0.057028",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Agilent  ( A )  Down 2.7% Since Last Earnings Report: Can It Rebound?",
+            "url": "https://www.zacks.com/stock/news/2072530/agilent-a-down-27-since-last-earnings-report-can-it-rebound",
+            "time_published": "20230330T153033",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent (A) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default86.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.994953"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.87644"
+                }
+            ],
+            "overall_sentiment_score": 0.16912,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.095138",
+                    "ticker_sentiment_score": "0.021634",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Agilent Technologies  ( A )  Gains But Lags Market: What You Should Know",
+            "url": "https://www.zacks.com/stock/news/2072147/agilent-technologies-a-gains-but-lags-market-what-you-should-know",
+            "time_published": "20230329T221523",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent Technologies (A) closed at $133.85 in the latest trading session, marking a +0.92% move from the prior day.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default339.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.972476"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.204587,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.553265",
+                    "ticker_sentiment_score": "0.292738",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Why Agilent Technologies  ( A )  is a Top Growth Stock for the Long-Term",
+            "url": "https://www.zacks.com/stock/news/2070808/why-agilent-technologies-a-is-a-top-growth-stock-for-the-long-term",
+            "time_published": "20230327T134503",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Whether you're a value, growth, or momentum investor, finding strong stocks becomes easier with the Zacks Style Scores, a top feature of the Zacks Premium research service.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default22.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.929393"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.928139"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.434679,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HPQ",
+                    "relevance_score": "0.082393",
+                    "ticker_sentiment_score": "0.068319",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.082393",
+                    "ticker_sentiment_score": "0.068319",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Protein Purification and Isolation Market to be Worth $15.04 Billion by 2030 - Exclusive Report by Meticulous Research\u00ae",
+            "url": "https://www.benzinga.com/pressreleases/23/03/g31510584/protein-purification-and-isolation-market-to-be-worth-15-04-billion-by-2030-exclusive-report-by-me",
+            "time_published": "20230327T123757",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Redding, California, March 27, 2023 ( GLOBE NEWSWIRE ) -- According to a new market research report titled, \"Protein Purification & Isolation Market by Product ( Instruments, Consumables, Software ) , Technique ( Ultrafiltration, Precipitation, Chromatography, Western Blotting ) , Application ( ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.684621"
+                }
+            ],
+            "overall_sentiment_score": 0.110609,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.027445",
+                    "ticker_sentiment_score": "-0.033499",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BIO",
+                    "relevance_score": "0.027445",
+                    "ticker_sentiment_score": "-0.033499",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "QGEN",
+                    "relevance_score": "0.027445",
+                    "ticker_sentiment_score": "-0.033499",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SUVPF",
+                    "relevance_score": "0.027445",
+                    "ticker_sentiment_score": "-0.033499",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DHR",
+                    "relevance_score": "0.027445",
+                    "ticker_sentiment_score": "-0.033499",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TMO",
+                    "relevance_score": "0.027445",
+                    "ticker_sentiment_score": "-0.033499",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Thermo Fisher Scientific Sees IBD RS Rating Rise To 74",
+            "url": "https://www.investors.com/ibd-data-stories/thermo-fisher-scientific-sees-ibd-rs-rating-rise-to-74/",
+            "time_published": "20230321T080000",
+            "authors": [
+                "Investor's Business Daily",
+                "INVESTOR'S BUSINESS DAILY"
+            ],
+            "summary": "Thermo Fisher Scientific ( TMO ) had its Relative Strength ( RS ) Rating upgraded from 69 to 74 Tuesday -- a welcome improvement, but still below the 80 or better score you look for. X When you're researching the best stocks to buy and watch, keep a close on eye on relative price strength.",
+            "banner_image": "https://www.investors.com/wp-content/uploads/2016/06/ibd.jpg",
+            "source": "Investors Business Daily",
+            "category_within_source": "n/a",
+            "source_domain": "www.investors.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.463645,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.16171",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ICLR",
+                    "relevance_score": "0.316846",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TMO",
+                    "relevance_score": "0.585687",
+                    "ticker_sentiment_score": "0.721377",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "How Is The Market Feeling About Agilent Technologies? - Agilent Technologies  ( NYSE:A ) ",
+            "url": "https://www.benzinga.com/short-sellers/23/03/31384264/how-is-the-market-feeling-about-agilent-technologies",
+            "time_published": "20230316T163040",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Agilent Technologies's A short percent of float has risen 3.51% since its last report. The company recently reported that it has 3.11 million shares sold short, which is 1.18% of all regular shares that are available for trading.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "Trading",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                }
+            ],
+            "overall_sentiment_score": 0.267332,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.112532",
+                    "ticker_sentiment_score": "0.083848",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Key Trends To Watch Out For In The Drug Discovery Services Market Space As Per The Business Research Company's Drug Discovery Services Global Market Report 2023",
+            "url": "https://www.benzinga.com/pressreleases/23/03/g31383081/key-trends-to-watch-out-for-in-the-drug-discovery-services-market-space-as-per-the-business-resear",
+            "time_published": "20230316T153000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "LONDON, March 16, 2023 ( GLOBE NEWSWIRE ) -- The Business Research Company's research on the drug discovery services market highlights technological advancement as the key trend in the drug discovery services market.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "News",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.193864,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.044469",
+                    "ticker_sentiment_score": "0.089299",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BAYZF",
+                    "relevance_score": "0.044469",
+                    "ticker_sentiment_score": "0.089299",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "GNNSF",
+                    "relevance_score": "0.044469",
+                    "ticker_sentiment_score": "0.089299",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TMO",
+                    "relevance_score": "0.044469",
+                    "ticker_sentiment_score": "0.089299",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRL",
+                    "relevance_score": "0.044469",
+                    "ticker_sentiment_score": "0.089299",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LH",
+                    "relevance_score": "0.044469",
+                    "ticker_sentiment_score": "0.089299",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "EVO",
+                    "relevance_score": "0.044469",
+                    "ticker_sentiment_score": "0.089299",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "A Look Into Agilent Technologies Inc's Price Over Earnings - Agilent Technologies  ( NYSE:A ) ",
+            "url": "https://www.benzinga.com/news/23/03/31360726/a-look-into-agilent-technologies-incs-price-over-earnings",
+            "time_published": "20230315T131907",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Looking into the current session, Agilent Technologies Inc. A shares are trading at $138.38, after a 0.01% decrease. Over the past month, the stock decreased by 8.80%, but over the past year, it actually increased by 1.15%.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                }
+            ],
+            "overall_sentiment_score": 0.114629,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.268294",
+                    "ticker_sentiment_score": "0.048853",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Ultrasonic Nebulizers Market Revenue to Cross USD 325.6 Mn by 2031 Due to Rise in Prevalence of Respiratory Diseases, Says TMR",
+            "url": "https://www.benzinga.com/pressreleases/23/03/g31348450/ultrasonic-nebulizers-market-revenue-to-cross-usd-325-6-mn-by-2031-due-to-rise-in-prevalence-of-re",
+            "time_published": "20230314T193000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Wilmington, Delaware, United States, March 15, 2023 ( GLOBE NEWSWIRE ) -- According to the latest market report by Transparency Market Research, the global ultrasonic nebulizers market size is projected to expand at a CAGR of 5.4% from 2022 to 2031.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                }
+            ],
+            "overall_sentiment_score": 0.238907,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.047092",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "IVCRQ",
+                    "relevance_score": "0.047092",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "OMRNF",
+                    "relevance_score": "0.047092",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "RYLPF",
+                    "relevance_score": "0.047092",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Agilent  ( A )  Boosts Digital Pathology Reach With Hamamatsu Deal",
+            "url": "https://www.zacks.com/stock/news/2065604/agilent-a-boosts-digital-pathology-reach-with-hamamatsu-deal",
+            "time_published": "20230314T162200",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent Technologies (A) signs a digital pathology solutions distribution agreement with Hamamatsu in a bid to strengthen its DGG segment.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/cf/1809.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.373236,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.193207",
+                    "ticker_sentiment_score": "0.289062",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.316439",
+                    "ticker_sentiment_score": "0.294575",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ADI",
+                    "relevance_score": "0.316439",
+                    "ticker_sentiment_score": "0.294575",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "HPHTF",
+                    "relevance_score": "0.064973",
+                    "ticker_sentiment_score": "0.197709",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Environmental Monitoring Market Worth USD 18.5 Billion at a 5.4% CAGR by 2030 - Report by Market Research Future  ( MRFR ) ",
+            "url": "https://www.benzinga.com/pressreleases/23/03/g31337921/environmental-monitoring-market-worth-usd-18-5-billion-at-a-5-4-cagr-by-2030-report-by-market-rese",
+            "time_published": "20230314T121158",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "New York, US, March 14, 2023 ( GLOBE NEWSWIRE ) -- According to a comprehensive research report by Market Research Future ( MRFR ) , Environmental Monitoring Market By Product, by End-User, by Technology Forecast Till 2030\", The environmental monitoring market is likely to witness a notable rise ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.214378"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.29064,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "LMT",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NNDNF",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SMAWF",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HON",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "THLEF",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "EMR",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MAXR",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.250062",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GE",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DHR",
+                    "relevance_score": "0.029691",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Agilent  ( A )  Boosts Biopharma Solutions Offerings With e-Msion",
+            "url": "https://www.zacks.com/stock/news/2064914/agilent-a-boosts-biopharma-solutions-offerings-with-e-msion",
+            "time_published": "20230313T163300",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent Technologies (A) announces the acquisition of e-Msion, to bolster its Life Sciences & Applied Markets Group segment.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/17/1926.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.295149,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.05833",
+                    "ticker_sentiment_score": "0.116125",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.285526",
+                    "ticker_sentiment_score": "0.272671",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ADI",
+                    "relevance_score": "0.285526",
+                    "ticker_sentiment_score": "0.272671",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "RSSS",
+                    "relevance_score": "0.05833",
+                    "ticker_sentiment_score": "0.099005",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Agilent  ( A )  to Boost Digital Pathology Reach With Proscia Deal",
+            "url": "https://www.zacks.com/stock/news/2064351/agilent-a-to-boost-digital-pathology-reach-with-proscia-deal",
+            "time_published": "20230310T171400",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent Technologies (A) signs a multi-year distribution agreement with Proscia in a bid to strengthen its DGG segment.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/cf/1809.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.306357,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.166169",
+                    "ticker_sentiment_score": "0.257189",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ADI",
+                    "relevance_score": "0.273399",
+                    "ticker_sentiment_score": "0.261818",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.273399",
+                    "ticker_sentiment_score": "0.261818",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "MACOM  ( MTSI )  Boosts Data Center Reach With New Product Family",
+            "url": "https://www.zacks.com/stock/news/2064159/macom-mtsi-boosts-data-center-reach-with-new-product-family",
+            "time_published": "20230310T143600",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "MACOM (MTSI) unveils 226Gbps per lane technology product family, which comprises transimpedance amplifiers, externally modulated laser driver and photodiode.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/8e/1377.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.395081,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.075161",
+                    "ticker_sentiment_score": "0.167929",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MTSI",
+                    "relevance_score": "0.222838",
+                    "ticker_sentiment_score": "0.089066",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.362858",
+                    "ticker_sentiment_score": "0.395984",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "ADI",
+                    "relevance_score": "0.362858",
+                    "ticker_sentiment_score": "0.395984",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "What Does Agilent Technologies' Debt Look Like? - Agilent Technologies  ( NYSE:A ) ",
+            "url": "https://www.benzinga.com/news/23/03/31294941/what-does-agilent-technologies-debt-look-like",
+            "time_published": "20230310T131725",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Over the past three months, shares of Agilent Technologies Inc. A fell by 11.89%. When understanding a companies price change over a time period like 3 months, it could be helpful to look at its financials.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "Markets",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                }
+            ],
+            "overall_sentiment_score": -0.120464,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.275867",
+                    "ticker_sentiment_score": "-0.021382",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Semtech  ( SMTC )  to Boost 5G Market Reach With New Solutions",
+            "url": "https://www.zacks.com/stock/news/2063646/semtech-smtc-to-boost-5g-market-reach-with-new-solutions",
+            "time_published": "20230309T153400",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Semtech (SMTC) announces the production availability of two new solutions, GN1300 and GN1400, to expand its FiberEdge portfolio.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/65/874.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.379565,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.076115",
+                    "ticker_sentiment_score": "0.168149",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.367141",
+                    "ticker_sentiment_score": "0.399089",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.367141",
+                    "ticker_sentiment_score": "0.399089",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "SMTC",
+                    "relevance_score": "0.2256",
+                    "ticker_sentiment_score": "0.274448",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Vishay  ( VSH )  Unveils New Devices, Expands Resistor Offerings",
+            "url": "https://www.zacks.com/stock/news/2063630/vishay-vsh-unveils-new-devices-expands-resistor-offerings",
+            "time_published": "20230309T151700",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Vishay (VSH) introduces a new series of automotive-grade thick film chip resistors - Vishay Techno CDMA.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/aa/2943.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.229829,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.059935",
+                    "ticker_sentiment_score": "0.166018",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.293038",
+                    "ticker_sentiment_score": "0.34056",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.293038",
+                    "ticker_sentiment_score": "0.34056",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "VSH",
+                    "relevance_score": "0.236396",
+                    "ticker_sentiment_score": "0.166557",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "MACOM  ( MTSI )  Acquires Linearizer, Expands Product Portfolio",
+            "url": "https://www.zacks.com/stock/news/2063597/macom-mtsi-acquires-linearizer-expands-product-portfolio",
+            "time_published": "20230309T150800",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "MACOM (MTSI) acquires Linearizer, which is known for correcting distortion in communications systems and linear optical links.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/8e/1377.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.443844,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.070517",
+                    "ticker_sentiment_score": "0.167024",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.341857",
+                    "ticker_sentiment_score": "0.380262",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "MTSI",
+                    "relevance_score": "0.464393",
+                    "ticker_sentiment_score": "0.571918",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.341857",
+                    "ticker_sentiment_score": "0.380262",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Life Science Tools Market Size [2023-2030] | Industry Share, Revenue, Key Players, CAGR, Demand and Forecast",
+            "url": "https://www.benzinga.com/pressreleases/23/03/g31275245/life-science-tools-market-size-2023-2030-industry-share-revenue-key-players-cagr-demand-and-foreca",
+            "time_published": "20230309T130338",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Pune, India, March 09, 2023 ( GLOBE NEWSWIRE ) -- The life science tools market size is rising due to the growing demand for diagnostic tests for infectious diseases. Furthermore, the rise in digitalization and growing adoption of technological advancements create opportunities for businesses to ...",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "Mergers",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.161647"
+                }
+            ],
+            "overall_sentiment_score": 0.196305,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.084127",
+                    "ticker_sentiment_score": "0.091665",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HTHIF",
+                    "relevance_score": "0.042122",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ILMN",
+                    "relevance_score": "0.042122",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SHMZF",
+                    "relevance_score": "0.042122",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TMO",
+                    "relevance_score": "0.084127",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BIO",
+                    "relevance_score": "0.042122",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "OXINF",
+                    "relevance_score": "0.042122",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "QGEN",
+                    "relevance_score": "0.042122",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DHR",
+                    "relevance_score": "0.042122",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Global Chromatography Systems Market Expected to Register a Revenue of $16,014.9 Million and Rise at a CAGR of 6.6% during the 2019-2026 Timeframe [100-Pages] | Depicted by Research Dive",
+            "url": "https://www.benzinga.com/pressreleases/23/03/g31257248/global-chromatography-systems-market-expected-to-register-a-revenue-of-16-014-9-million-and-rise-a",
+            "time_published": "20230308T140000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "New York, USA, March 08, 2023 ( GLOBE NEWSWIRE ) -- According to a report published by Research Dive, the global chromatography systems market is anticipated to garner $16,014.9 million and rise at a CAGR of 6.6% throughout the analysis timeframe from 2019 to 2026.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.161647"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.108179"
+                }
+            ],
+            "overall_sentiment_score": 0.19078,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.130217",
+                    "ticker_sentiment_score": "0.135274",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BIO",
+                    "relevance_score": "0.065327",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SHMZF",
+                    "relevance_score": "0.065327",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TMO",
+                    "relevance_score": "0.065327",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Itron  ( ITRI )  Unveils Fiber MiniAP for Grid Modernization",
+            "url": "https://www.zacks.com/stock/news/2062604/itron-itri-unveils-fiber-miniap-for-grid-modernization",
+            "time_published": "20230307T151200",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Itron's (ITRI) new Fiber Mini Access Point is designed to help rural electric cooperatives leverage their fiber network assets for grid modernization.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/6e/815.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.682689"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.306566,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ITRI",
+                    "relevance_score": "0.404563",
+                    "ticker_sentiment_score": "0.272545",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.070517",
+                    "ticker_sentiment_score": "0.035593",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.140485",
+                    "ticker_sentiment_score": "-0.030389",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "FTV",
+                    "relevance_score": "0.140485",
+                    "ticker_sentiment_score": "0.089083",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "ZwitterCo Announces Christopher Ling as Chief Financial Officer",
+            "url": "https://www.prnewswire.com/news-releases/zwitterco-announces-christopher-ling-as-chief-financial-officer-301764219.html",
+            "time_published": "20230307T123000",
+            "authors": [
+                "ZwitterCo"
+            ],
+            "summary": "BOSTON, March 7, 2023 /PRNewswire/ -- ZwitterCo, the advanced membrane technology company, today announced the appointment of Christopher Ling as Chief Financial Officer. He brings more than 25 years of financial leadership and a proven track record of successfully leading companies through ...",
+            "banner_image": "",
+            "source": "PR Newswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.prnewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.408306,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FCN",
+                    "relevance_score": "0.061949",
+                    "ticker_sentiment_score": "0.351787",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.061949",
+                    "ticker_sentiment_score": "0.351787",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "CCLLF",
+                    "relevance_score": "0.061949",
+                    "ticker_sentiment_score": "0.351787",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AVY",
+                    "relevance_score": "0.061949",
+                    "ticker_sentiment_score": "0.351787",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "WTII",
+                    "relevance_score": "0.061949",
+                    "ticker_sentiment_score": "0.183123",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Capillary electrophoresis market to grow CAGR of 5.7% from 2022 to 2027; Evolving opportunities with Agilent Technologies Inc and Bio Rad Laboratories Inc among others- Technavio",
+            "url": "https://www.prnewswire.com/news-releases/capillary-electrophoresis-market-to-grow-cagr-of-5-7--from-2022-to-2027-evolving-opportunities-with-agilent-technologies-inc-and-bio-rad-laboratories-inc-among-others--technavio-301763247.html",
+            "time_published": "20230307T093000",
+            "authors": [
+                "Technavio"
+            ],
+            "summary": "Capillary electrophoresis market to grow CAGR of 5.7% from 2022 ... PR ...",
+            "banner_image": "https://mma.prnewswire.com/media/2016429/Technavio_Logo_Logo.jpg?p=facebook",
+            "source": "PR Newswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.prnewswire.com",
+            "topics": [
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                }
+            ],
+            "overall_sentiment_score": 0.139585,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.095517",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TECH",
+                    "relevance_score": "0.158519",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SSMXF",
+                    "relevance_score": "0.015957",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "SUVPF",
+                    "relevance_score": "0.015957",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TMO",
+                    "relevance_score": "0.095517",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BIO",
+                    "relevance_score": "0.158519",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "QGEN",
+                    "relevance_score": "0.031907",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DHR",
+                    "relevance_score": "0.063763",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PKI",
+                    "relevance_score": "0.095517",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Garmin  ( GRMN )  Boosts Smartwatch Offerings With Latest Update",
+            "url": "https://www.zacks.com/stock/news/2062220/garmin-grmn-boosts-smartwatch-offerings-with-latest-update",
+            "time_published": "20230306T155300",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Garmin (GRMN) adds AMOLED display feature to its Forerunner 265 and Forerunner 965 GPS running smartwatches.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/90/1326.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.375997,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.071784",
+                    "ticker_sentiment_score": "0.167244",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.347614",
+                    "ticker_sentiment_score": "0.384655",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.347614",
+                    "ticker_sentiment_score": "0.384655",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "GRMN",
+                    "relevance_score": "0.67831",
+                    "ticker_sentiment_score": "0.554387",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Quest Diagnostics Board of Directors Elects James E. Davis Chairman of the Board",
+            "url": "https://www.prnewswire.com/news-releases/quest-diagnostics-board-of-directors-elects-james-e-davis-chairman-of-the-board-301762477.html",
+            "time_published": "20230303T213000",
+            "authors": [
+                "Quest Diagnostics"
+            ],
+            "summary": "Quest Diagnostics Board of Directors Elects James E. Davis ... PR ...",
+            "banner_image": "https://mma.prnewswire.com/media/200883/quest_diagnostics_incorporated_logo_logo.jpg?p=facebook",
+            "source": "PR Newswire",
+            "category_within_source": "n/a",
+            "source_domain": "www.prnewswire.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.292473,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HPQ",
+                    "relevance_score": "0.049732",
+                    "ticker_sentiment_score": "0.090262",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "III",
+                    "relevance_score": "0.099271",
+                    "ticker_sentiment_score": "0.185008",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.049732",
+                    "ticker_sentiment_score": "0.090262",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DGX",
+                    "relevance_score": "0.382193",
+                    "ticker_sentiment_score": "0.48042",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Trimble's  ( TRMB )  Clientele Grows With National Highway Contract",
+            "url": "https://www.zacks.com/stock/news/2061712/trimbles-trmb-clientele-grows-with-national-highway-contract",
+            "time_published": "20230303T190700",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "National Highway extends its contract with Trimble (TRMB) for the latter's AgileAssets cloud software.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/5b/2246.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.414027,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.080728",
+                    "ticker_sentiment_score": "0.169365",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.387674",
+                    "ticker_sentiment_score": "0.413499",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.387674",
+                    "ticker_sentiment_score": "0.413499",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "TRMB",
+                    "relevance_score": "0.521961",
+                    "ticker_sentiment_score": "0.541317",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NSANF",
+                    "relevance_score": "0.080728",
+                    "ticker_sentiment_score": "0.248518",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "3 Reasons Growth Investors Will Love Agilent  ( A ) ",
+            "url": "https://www.zacks.com/stock/news/2061705/3-reasons-growth-investors-will-love-agilent-a",
+            "time_published": "20230303T174507",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent (A) possesses solid growth attributes, which could help it handily outperform the market.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default278.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.983783"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                }
+            ],
+            "overall_sentiment_score": 0.464054,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.077094",
+                    "ticker_sentiment_score": "0.169603",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "VMware  ( VMW )  Q4 Earnings Beat Estimates, Revenues Rise Y/Y",
+            "url": "https://www.zacks.com/stock/news/2061415/vmware-vmw-q4-earnings-beat-estimates-revenues-rise-yy",
+            "time_published": "20230303T124300",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "VMware's (VMW) fourth-quarter fiscal 2023 results reflect top-line growth, driven by strength in demand for the company's multi-cloud offerings.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/e8/550.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.360215"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.928769"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.159866,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.085324",
+                    "ticker_sentiment_score": "0.120894",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.252114",
+                    "ticker_sentiment_score": "0.219276",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "VMW",
+                    "relevance_score": "0.546745",
+                    "ticker_sentiment_score": "0.390225",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.252114",
+                    "ticker_sentiment_score": "0.196274",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Semtech  ( SMTC )  Boosts IoT Prospects With The Things Industries",
+            "url": "https://www.zacks.com/stock/news/2061192/semtech-smtc-boosts-iot-prospects-with-the-things-industries",
+            "time_published": "20230302T170600",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Semtech (SMTC) partners with The Things Industries to bring new solutions combining LoRaWAN and cellular solutions.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/65/874.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.350469,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.084127",
+                    "ticker_sentiment_score": "0.17352",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.402618",
+                    "ticker_sentiment_score": "0.430297",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.402618",
+                    "ticker_sentiment_score": "0.430297",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "SMTC",
+                    "relevance_score": "0.327366",
+                    "ticker_sentiment_score": "0.37011",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Microsoft  ( MSFT )  Internet to Reach 20 Million People in Africa",
+            "url": "https://www.zacks.com/stock/news/2061179/microsoft-msft-internet-to-reach-20-million-people-in-africa",
+            "time_published": "20230302T164700",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Microsoft (MSFT) Africa Internet plan moves toward its goal of reaching hundred million people with a new fiber deal.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/fd/423.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.451494"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.240869,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.530849",
+                    "ticker_sentiment_score": "0.328809",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.190667",
+                    "ticker_sentiment_score": "0.081206",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRTO",
+                    "relevance_score": "0.252332",
+                    "ticker_sentiment_score": "0.101181",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ETSY",
+                    "relevance_score": "0.252332",
+                    "ticker_sentiment_score": "0.101181",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Vishay  ( VSH )  Upgrades IR modules, Bolsters Discrete Portfolio",
+            "url": "https://www.zacks.com/stock/news/2061073/vishay-vsh-upgrades-ir-modules-bolsters-discrete-portfolio",
+            "time_published": "20230302T152400",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Vishay (VSH) upgrades its IR modules series with the new Cycllene 2 IC to strengthen its optoelectronics offerings.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/ee/759.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.769861"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.262361,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.062597",
+                    "ticker_sentiment_score": "0.166128",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.305437",
+                    "ticker_sentiment_score": "0.351048",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.305437",
+                    "ticker_sentiment_score": "0.351048",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "VSH",
+                    "relevance_score": "0.305437",
+                    "ticker_sentiment_score": "0.292878",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Box  ( BOX )  Q4 Earnings Beat Estimates, Revenues Increase Y/Y",
+            "url": "https://www.zacks.com/stock/news/2061057/box-box-q4-earnings-beat-estimates-revenues-increase-yy",
+            "time_published": "20230302T150200",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Box's (BOX) fourth-quarter fiscal 2023 results reflect strength in Content Cloud and the impacts of the growing adoption of Enterprise Plus.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/f9/1872.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.650727"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999998"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.173923,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.056143",
+                    "ticker_sentiment_score": "0.088",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.221819",
+                    "ticker_sentiment_score": "0.150516",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.275246",
+                    "ticker_sentiment_score": "0.17855",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BOX",
+                    "relevance_score": "0.47379",
+                    "ticker_sentiment_score": "0.2152",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Agilent  ( A )  Loses -11.54% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+            "url": "https://www.zacks.com/stock/news/2060985/agilent-a-loses--1154-in-4-weeks-heres-why-a-trend-reversal-may-be-around-the-corner",
+            "time_published": "20230302T143506",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "The heavy selling pressure might have exhausted for Agilent (A) as it is technically in oversold territory now. In addition to this technical measure, strong agreement among Wall Street analysts in revising earnings estimates higher indicates that the stock is ripe for a trend reversal.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default103.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.818451"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.990999"
+                }
+            ],
+            "overall_sentiment_score": 0.206276,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.105141",
+                    "ticker_sentiment_score": "0.076686",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Agilent's  ( A )  Q1 Earnings & Revenues Beat Estimates, Rise Y/Y",
+            "url": "https://www.zacks.com/stock/news/2060410/agilents-a-q1-earnings-revenues-beat-estimates-rise-yy",
+            "time_published": "20230301T142800",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent Technologies' (A) first-quarter fiscal 2023 results reflect strength across pharma and applied markets.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/a0/644.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999759"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.206953,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.187463",
+                    "ticker_sentiment_score": "0.182268",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AME",
+                    "relevance_score": "0.233108",
+                    "ticker_sentiment_score": "0.186342",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.233108",
+                    "ticker_sentiment_score": "0.186342",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "BIDU",
+                    "relevance_score": "0.233108",
+                    "ticker_sentiment_score": "0.186342",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Agilent Technologies  ( A )  Surpasses Q1 Earnings and Revenue Estimates",
+            "url": "https://www.zacks.com/stock/news/2060016/agilent-technologies-a-surpasses-q1-earnings-and-revenue-estimates",
+            "time_published": "20230228T222509",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent (A) delivered earnings and revenue surprises of 4.58% and 3.78%, respectively, for the quarter ended January 2023. Do the numbers hold clues to what lies ahead for the stock?",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default111.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999992"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.169083,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.069495",
+                    "ticker_sentiment_score": "0.076991",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "IRIX",
+                    "relevance_score": "0.138464",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Looking Into Agilent Technologies's Recent Short Interest - Agilent Technologies  ( NYSE:A ) ",
+            "url": "https://www.benzinga.com/short-sellers/23/02/31094762/looking-into-agilent-technologiess-recent-short-interest",
+            "time_published": "20230228T154749",
+            "authors": [
+                "Benzinga Insights"
+            ],
+            "summary": "Agilent Technologies's A short percent of float has fallen 5.0% since its last report. The company recently reported that it has 2.99 million shares sold short, which is 1.14% of all regular shares that are available for trading.",
+            "banner_image": "https://cdn.benzinga.com/files/images/story/2023/movers_image_3663.jpeg?width=1200&height=800&fit=crop",
+            "source": "Benzinga",
+            "category_within_source": "Trading",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.365926"
+                }
+            ],
+            "overall_sentiment_score": 0.239316,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.112532",
+                    "ticker_sentiment_score": "0.032783",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Agilent Technologies  ( A )  to Post Q1 Earnings: What's in Store?",
+            "url": "https://www.zacks.com/stock/news/2059454/agilent-technologies-a-to-post-q1-earnings-whats-in-store",
+            "time_published": "20230227T184900",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Agilent Technologies (A) first-quarter fiscal 2023 results are likely to reflect strength in LSAG, ACG and DGG segments.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/articles/main/17/1716.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Manufacturing",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.998917"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.199685,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.06179",
+                    "ticker_sentiment_score": "0.097016",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AVGO",
+                    "relevance_score": "0.183895",
+                    "ticker_sentiment_score": "0.015008",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "CRWD",
+                    "relevance_score": "0.183895",
+                    "ticker_sentiment_score": "0.015008",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AXNX",
+                    "relevance_score": "0.183895",
+                    "ticker_sentiment_score": "0.015008",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Itron  ( ITRI )  Q4 Earnings and Revenues Top Estimates",
+            "url": "https://www.zacks.com/stock/news/2059328/itron-itri-q4-earnings-and-revenues-top-estimates",
+            "time_published": "20230227T144503",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Itron (ITRI) delivered earnings and revenue surprises of 610% and 6.80%, respectively, for the quarter ended December 2022. Do the numbers hold clues to what lies ahead for the stock?",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default352.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999997"
+                },
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "1.0"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.266143"
+                }
+            ],
+            "overall_sentiment_score": 0.155352,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ITRI",
+                    "relevance_score": "0.401331",
+                    "ticker_sentiment_score": "0.172816",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.139265",
+                    "ticker_sentiment_score": "0.0",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Time to Buy These Innovative Stocks Before Earnings?",
+            "url": "https://www.zacks.com/commentary/2058957/time-to-buy-these-innovative-stocks-before-earnings",
+            "time_published": "20230224T235500",
+            "authors": [
+                "Zacks Investment Research"
+            ],
+            "summary": "Investors will certainly want to keep Agilent Technologies (A) and Sterling Infrastructure (STRL) on their radars as there could still be plenty of upside and opportunity in these innovative companies.",
+            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default233.jpg",
+            "source": "Zacks Commentary",
+            "category_within_source": "n/a",
+            "source_domain": "www.zacks.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.333333"
+                },
+                {
+                    "topic": "Economy - Monetary",
+                    "relevance_score": "0.158519"
+                },
+                {
+                    "topic": "IPO",
+                    "relevance_score": "0.310843"
+                },
+                {
+                    "topic": "Financial Markets",
+                    "relevance_score": "0.459462"
+                },
+                {
+                    "topic": "Earnings",
+                    "relevance_score": "0.999938"
+                },
+                {
+                    "topic": "Real Estate & Construction",
+                    "relevance_score": "0.333333"
+                }
+            ],
+            "overall_sentiment_score": 0.369987,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HPQ",
+                    "relevance_score": "0.102013",
+                    "ticker_sentiment_score": "0.168302",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "STRL",
+                    "relevance_score": "0.299478",
+                    "ticker_sentiment_score": "0.462979",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.152499",
+                    "ticker_sentiment_score": "0.305121",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "FOREX:GBP",
+                    "relevance_score": "0.478494",
+                    "ticker_sentiment_score": "0.542106",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        }
+    ]
+}
