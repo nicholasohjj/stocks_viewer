@@ -1,5 +1,5 @@
 import dash
-from dash import Dash, html, dcc, Output, Input
+from dash import Dash, html, dcc, Output, Input, State
 import dash_bootstrap_components as dbc
 from dotenv import load_dotenv
 import plotly.graph_objs as go
@@ -50,8 +50,10 @@ app.layout = html.Div([
                 value='candlestick',
                 className='dropdown'
             ),
-        ], className='dropdown-container'),
+            dbc.Button('Company Info', id='company-info-button', color="primary", n_clicks=0, className='info-button'),
+        ], className='input-container'),
     ], className='input-wrapper'),
+    
     html.Div(id='graph-wrapper', children=[
         dcc.Loading(
             id="loading",
@@ -59,8 +61,38 @@ app.layout = html.Div([
             children=dcc.Graph(id='graph-content', className='stock-graph')
         )
     ]),
-    html.Div(id='output-news', className='news-container')
+    html.Div(id='output-news', className='news-container'),
+    dbc.Modal(
+        [
+            dbc.ModalHeader("Company Info"),
+            dbc.ModalBody(id='company-info-modal-body'),
+            dbc.ModalFooter(
+                dbc.Button("Close", id="close-company-info-button", className="ml-auto", color="secondary")
+            ),
+        ],
+        id="company-info-modal",
+    ),
 ])
+
+@app.callback(
+    Output("company-info-modal", "is_open"),
+    [Input("company-info-button", "n_clicks"), Input("close-company-info-button", "n_clicks")],
+    [State("company-info-modal", "is_open")],
+)
+def toggle_company_info_modal(n, n2, is_open):
+    if n or n2:
+        return not is_open
+    return is_open
+
+@app.callback(
+    Output("company-info-modal-body", "children"),
+    [Input("company-info-button", "n_clicks")],
+    [State("symbol-input", "value")],
+)
+def update_company_info_modal_body(n, symbol):
+    if n:
+        return "Test (TO-D0)"
+    return ""
 
 @app.callback(
     Output("symbol-input","value"),
@@ -87,7 +119,7 @@ def truncate_title(title, max_words=20):
 
 def load_news(click):
     if symbol == None:
-        return html.Div()
+        return
     if stored_symbol != symbol:
         data = lookup_news(symbol)
         if data == None:

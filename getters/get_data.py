@@ -16,7 +16,7 @@ ts_daily = ts.TimeSeries(api_key_daily, output_format='pandas')
 ts_weekly = ts.TimeSeries(api_key_weekly, output_format='pandas')
 ts_monthly = ts.TimeSeries(api_key_monthly, output_format='pandas')
 
-def get_data(symbol, time_frame, ts_function, interval=None, outputsize="compact"):
+def get_data(symbol, time_frame, ts_function, interval=None, outputsize="full"):
     data = None
     if ts_function == "ts.get_intraday":
         data, meta_data = ts_intraday.get_intraday(symbol=symbol, outputsize=outputsize, interval=interval)
@@ -29,7 +29,7 @@ def get_data(symbol, time_frame, ts_function, interval=None, outputsize="compact
 
 def lookup(symbol):
     try:
-        intraday_data = get_data(symbol, "Intraday", "ts.get_intraday", interval='60min')
+        intraday_data = get_data(symbol, "Intraday", "ts.get_intraday", interval='1min')
         daily_data = get_data(symbol, "Daily adjusted",  ts_daily.get_daily_adjusted)
         weekly_data = get_data(symbol, "Weekly adjusted",  ts_weekly.get_weekly_adjusted)
         monthly_data = get_data(symbol, "Monthly adjusted",  ts_monthly.get_monthly_adjusted)
@@ -58,4 +58,4 @@ def lookup(symbol):
                     color="black"
                 ))  
 ##TESTS
-lookup("b")
+#lookup("se")

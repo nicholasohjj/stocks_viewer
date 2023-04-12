@@ -1,4 +1,3 @@
-
 .main-title {
     text-align: center;
     margin-top: 20px;
@@ -37,6 +36,11 @@
     width: 200px; 
 }
 
+.info-button {
+    margin-left: 10px;
+    width: 30%;
+}
+
 .graph-wrapper {
     margin-bottom: 20px;
 }
@@ -65,4 +69,3 @@
     height: 200px;
     object-fit: cover;
 }
-

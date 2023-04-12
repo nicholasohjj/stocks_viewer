@@ -4,6 +4,81 @@
     "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
     "feed": [
         {
+            "title": "Research Antibodies and Reagents Market to Grow at a CAGR of 6.6% | TMR Study",
+            "url": "https://www.benzinga.com/pressreleases/23/04/g31763964/research-antibodies-and-reagents-market-to-grow-at-a-cagr-of-6-6-tmr-study",
+            "time_published": "20230412T103000",
+            "authors": [
+                "Globe Newswire"
+            ],
+            "summary": "Wilmington, Delaware, United States, April 12, 2023 ( GLOBE NEWSWIRE ) -- Significance of research antibodies and reagents for a wide range of applications in scientific research is driving the market.",
+            "banner_image": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+            "source": "Benzinga",
+            "category_within_source": "General",
+            "source_domain": "www.benzinga.com",
+            "topics": [
+                {
+                    "topic": "Life Sciences",
+                    "relevance_score": "0.5"
+                },
+                {
+                    "topic": "Technology",
+                    "relevance_score": "0.5"
+                }
+            ],
+            "overall_sentiment_score": 0.064978,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "A",
+                    "relevance_score": "0.036869",
+                    "ticker_sentiment_score": "0.063982",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ABCM",
+                    "relevance_score": "0.036869",
+                    "ticker_sentiment_score": "0.063982",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "ILMN",
+                    "relevance_score": "0.036869",
+                    "ticker_sentiment_score": "0.063982",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BDX",
+                    "relevance_score": "0.036869",
+                    "ticker_sentiment_score": "0.063982",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "TMO",
+                    "relevance_score": "0.036869",
+                    "ticker_sentiment_score": "0.063982",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "BIO",
+                    "relevance_score": "0.036869",
+                    "ticker_sentiment_score": "0.063982",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "DHR",
+                    "relevance_score": "0.036869",
+                    "ticker_sentiment_score": "0.063982",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "PKI",
+                    "relevance_score": "0.036869",
+                    "ticker_sentiment_score": "0.063982",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
             "title": "Mission Bio Partners with Fulgent Genetics to Broaden Accessibility of Single-Cell Multi-Omics for Drug Development and Clinical Research",
             "url": "https://www.prnewswire.com/news-releases/mission-bio-partners-with-fulgent-genetics-to-broaden-accessibility-of-single-cell-multi-omics-for-drug-development-and-clinical-research-301793829.html",
             "time_published": "20230411T120000",
@@ -2590,77 +2665,6 @@
                     "relevance_score": "0.139265",
                     "ticker_sentiment_score": "0.0",
                     "ticker_sentiment_label": "Neutral"
-                }
-            ]
-        },
-        {
-            "title": "Time to Buy These Innovative Stocks Before Earnings?",
-            "url": "https://www.zacks.com/commentary/2058957/time-to-buy-these-innovative-stocks-before-earnings",
-            "time_published": "20230224T235500",
-            "authors": [
-                "Zacks Investment Research"
-            ],
-            "summary": "Investors will certainly want to keep Agilent Technologies (A) and Sterling Infrastructure (STRL) on their radars as there could still be plenty of upside and opportunity in these innovative companies.",
-            "banner_image": "https://staticx-tuner.zacks.com/images/default_article_images/default233.jpg",
-            "source": "Zacks Commentary",
-            "category_within_source": "n/a",
-            "source_domain": "www.zacks.com",
-            "topics": [
-                {
-                    "topic": "Life Sciences",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Technology",
-                    "relevance_score": "0.333333"
-                },
-                {
-                    "topic": "Economy - Monetary",
-                    "relevance_score": "0.158519"
-                },
-                {
-                    "topic": "IPO",
-                    "relevance_score": "0.310843"
-                },
-                {
-                    "topic": "Financial Markets",
-                    "relevance_score": "0.459462"
-                },
-                {
-                    "topic": "Earnings",
-                    "relevance_score": "0.999938"
-                },
-                {
-                    "topic": "Real Estate & Construction",
-                    "relevance_score": "0.333333"
-                }
-            ],
-            "overall_sentiment_score": 0.369987,
-            "overall_sentiment_label": "Bullish",
-            "ticker_sentiment": [
-                {
-                    "ticker": "HPQ",
-                    "relevance_score": "0.102013",
-                    "ticker_sentiment_score": "0.168302",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "STRL",
-                    "relevance_score": "0.299478",
-                    "ticker_sentiment_score": "0.462979",
-                    "ticker_sentiment_label": "Bullish"
-                },
-                {
-                    "ticker": "A",
-                    "relevance_score": "0.152499",
-                    "ticker_sentiment_score": "0.305121",
-                    "ticker_sentiment_label": "Somewhat-Bullish"
-                },
-                {
-                    "ticker": "FOREX:GBP",
-                    "relevance_score": "0.478494",
-                    "ticker_sentiment_score": "0.542106",
-                    "ticker_sentiment_label": "Bullish"
                 }
             ]
         }
