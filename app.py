@@ -6,6 +6,7 @@ import plotly.graph_objs as go
 import pandas as pd
 import os
 import json
+from plotly.subplots import make_subplots
 from getters.get_data import lookup
 from getters.check_update import check_outdated
 from setters.chart import chart
@@ -156,7 +157,15 @@ def load_news(click):
 )
 def update_graph(n_clicks, time_frame_value, chart_type_value):
     global stored_symbol
-
+    if stored_symbol == None and symbol == None:
+        return make_subplots().update_layout(title_text='Enter a symbol to start', title_font_color='red',
+            plot_bgcolor='rgb(250, 242, 242)',
+            paper_bgcolor='rgb(250, 242, 242)',
+            font=dict(
+                family="Courier New, monospace",
+                size=12,
+                color="black"
+            ))  
     trigger = dash.callback_context.triggered[0]['prop_id'].split('.')[0]
 
     folder_path = "tickers/"
