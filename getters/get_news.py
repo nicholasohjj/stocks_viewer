@@ -3,6 +3,7 @@ import requests
 from dotenv import load_dotenv
 import os
 import json
+
 load_dotenv()
 
 api_key_news = os.getenv("api_key_news")
