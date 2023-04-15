@@ -32,7 +32,3 @@ def check_outdated(symbol, df):
     print(diff)
 
     return diff != 0
-
-
-df = pd.read_csv("tickers/aapl.csv")
-check_outdated("aapl",df)
