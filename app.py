@@ -79,8 +79,11 @@ app.layout = html.Div([
             children=dcc.Graph(id='graph-content', className='stock-graph')
         )
     ]),
-    html.Div(id='output-news', className='news-container'),
-    dbc.Modal(
+    dcc.Loading(
+        id="news-loading",
+        type="default",
+        children=html.Div(id='output-news', className='news-container'),
+    ),    dbc.Modal(
         [
             dbc.ModalHeader("Company Info"),
             dbc.ModalBody(id='company-info-modal-body'),
