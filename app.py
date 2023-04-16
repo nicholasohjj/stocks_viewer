@@ -12,6 +12,9 @@ from getters.check_update import check_outdated
 from setters.chart import chart
 from getters.get_news import lookup_news
 
+INTERVAL_OPTIONS = ['Intraday', 'Daily', 'Weekly', 'Monthly']
+CHART_TYPE_OPTIONS = ['Candlestick', 'Line']
+                      
 load_dotenv()
 
 symbol = None
@@ -127,7 +130,7 @@ def load_news(click):
             return html.Div()
     else:
         data = None
-        with open('ticker_news/'+stored_symbol.upper()+'.json', 'r') as file:
+        with open('/assets/ticker_news/'+stored_symbol.upper()+'.json', 'r') as file:
             data = json.load(file)
     
     feed = data["feed"]
@@ -168,7 +171,7 @@ def update_graph(n_clicks, time_frame_value, chart_type_value):
             ))  
     trigger = dash.callback_context.triggered[0]['prop_id'].split('.')[0]
 
-    folder_path = "tickers/"
+    folder_path = "/assets/tickers/"
     if trigger == "fetch-data-button":
         stored_symbol = symbol
         file_path = folder_path+stored_symbol.upper()+".csv"

@@ -34,7 +34,7 @@ def lookup(symbol):
         weekly_data = get_data(symbol, "Weekly adjusted",  ts_weekly.get_weekly_adjusted)
         monthly_data = get_data(symbol, "Monthly adjusted",  ts_monthly.get_monthly_adjusted)
         data = pd.concat([intraday_data, daily_data, weekly_data, monthly_data])
-        folder_path = 'tickers/'
+        folder_path = '/assets/tickers/'
         data.to_csv(folder_path+symbol.upper()+'.csv', index=True)
     except ValueError as e:
         print(str(e))
