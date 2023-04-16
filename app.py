@@ -71,14 +71,15 @@ app.layout = html.Div([
             ),
         ], className='dropdown-wrapper'),
         html.Div(children=[
-            html.Label('Select a technical indicator:'),
-            dcc.Dropdown(
-                id='indicator-dropdown',
-                options=[
-                    {'label': 'SMA (Simple Moving Average)', 'value': 'SMA'},
-                    {'label': 'EMA (Exponential Moving Average)', 'value': 'EMA'},
-                ],  
-                value='SMA'
+        html.Label('Select a technical indicator:'),
+        dcc.Dropdown(
+            id='indicator-dropdown',
+            options=[
+                {'label': 'No Indicator', 'value': 'none'},  # Add "No Indicator" option
+                {'label': 'SMA (Simple Moving Average)', 'value': 'SMA'},
+                {'label': 'EMA (Exponential Moving Average)', 'value': 'EMA'},
+            ],
+            value='none', 
             ),
     html.Div(children=[
         html.Label('Select the period for Moving Average:'),
@@ -88,7 +89,7 @@ app.layout = html.Div([
             max=50,
             step=5,
             value=20,
-            marks={i: f'{i} days' if i % 10 == 0 else '' for i in range(5, 55, 5)},  # Modify marks titles
+            marks={i: f'{i} days' if i % 10 == 0 else '' for i in range(5, 55, 5)},
             tooltip={'always_visible': True, 'placement': 'bottom'},
             className='slider',
         ),
