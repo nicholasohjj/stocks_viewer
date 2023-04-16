@@ -35,6 +35,7 @@ with open("time_frames.json") as file:
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, '/assets/styles.css'])
 
 server = app.server
+app.title = "StockVision - Stock Data Visualization"  # Set the title of the HTML page
 
 app.layout = html.Div([
     html.H1(children='StockVision', className='main-title'),
@@ -48,6 +49,9 @@ app.layout = html.Div([
             ),
             dbc.Button('Fetch Data', id='fetch-data-button', color="success", n_clicks=0, className='fetch-button'),
         ], className='input-container'),
+    ], className='input-wrapper'),
+
+    html.Div([
         html.Div([
             dcc.Dropdown(
                 id='time-frame-dropdown',
@@ -55,6 +59,8 @@ app.layout = html.Div([
                 value='Intraday',
                 className='dropdown'
             ),
+        ], className='dropdown-wrapper'),
+        html.Div([
             dcc.Dropdown(
                 id='chart-type-dropdown',
                 options=[{'label': 'Candlestick', 'value': 'candlestick'},
@@ -62,10 +68,10 @@ app.layout = html.Div([
                 value='candlestick',
                 className='dropdown'
             ),
-            dbc.Button('Company Info', id='company-info-button', color="primary", n_clicks=0, className='info-button'),
-        ], className='input-container'),
+        ], className='dropdown-wrapper'),
+        dbc.Button('Company Info', id='company-info-button', color="primary", n_clicks=0, className='info-button'),
     ], className='input-wrapper'),
-    
+
     html.Div(id='graph-wrapper', children=[
         dcc.Loading(
             id="loading",
@@ -84,7 +90,8 @@ app.layout = html.Div([
         ],
         id="company-info-modal",
     ),
-])
+], className='container-fluid')
+
 
 @app.callback(
     Output("company-info-modal", "is_open"),
