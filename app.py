@@ -28,6 +28,9 @@ with open("time_frames.json") as file:
         time_frames.append(data[item]["time"])
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, '/assets/styles.css'])
+
+server = app.server
+
 app.layout = html.Div([
     html.H1(children='StockVision', className='main-title'),
     html.Div([
