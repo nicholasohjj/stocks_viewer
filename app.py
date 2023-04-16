@@ -7,6 +7,7 @@ import pandas as pd
 import os
 import io
 import json
+from datetime import datetime
 from plotly.subplots import make_subplots
 from getters.get_data import lookup
 from getters.check_update import check_outdated
@@ -69,6 +70,31 @@ app.layout = html.Div([
                 className='dropdown'
             ),
         ], className='dropdown-wrapper'),
+        html.Div(children=[
+            html.Label('Select a technical indicator:'),
+            dcc.Dropdown(
+                id='indicator-dropdown',
+                options=[
+                    {'label': 'SMA (Simple Moving Average)', 'value': 'SMA'},
+                    {'label': 'EMA (Exponential Moving Average)', 'value': 'EMA'},
+                ],  
+                value='SMA'
+            ),
+    html.Div(children=[
+        html.Label('Select the period for Moving Average:'),
+        dcc.Slider(
+            id='period-slider',
+            min=5,
+            max=50,
+            step=5,
+            value=20,
+            marks={i: f'{i} days' if i % 10 == 0 else '' for i in range(5, 55, 5)},  # Modify marks titles
+            tooltip={'always_visible': True, 'placement': 'bottom'},
+            className='slider',
+        ),
+    ], style={'margin-top': '20px', 'font-size': '12px'}),
+        ]),
+        
         dbc.Button('Company Info', id='company-info-button', color="primary", n_clicks=0, className='info-button'),
     ], className='input-wrapper'),
 
@@ -159,6 +185,7 @@ def load_news(click):
             [
                 html.Img(src=item['banner_image'], className='news-image'),
                 html.H3(children=truncate_title(item['title']), className='news-title', style={'margin': '10px 0'}),
+                html.P(children = datetime.strptime(item['time_published'],"%Y%m%dT%H%M%S"), className='news-source'),
                 html.P(children=item['summary'], className='news-summary'),
                 html.P('Source: ' + item['source'], className='news-source'),
                 html.P('Sentiment: ' + item['overall_sentiment_label'], className='news-sentiment'),

@@ -31,4 +31,4 @@ def check_outdated(symbol, df):
 
     print(diff)
 
-    return diff != 0
+    return diff != 0    
