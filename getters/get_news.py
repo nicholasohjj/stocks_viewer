@@ -3,11 +3,17 @@ import requests
 from dotenv import load_dotenv
 import os
 import json
+import boto3
 
 load_dotenv()
 
-api_key_news = os.getenv("api_key_news")
+aws_access_key_id = os.getenv("aws_access_key_id")
+aws_secret_access_key = os.getenv("aws_secret_access_key")
 
+s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
+bucket_name = 'stockvision'
+
+api_key_news = os.getenv("api_key_news")
 
 def lookup_news(symbol):
     print("Finding", symbol)
@@ -19,22 +25,19 @@ def lookup_news(symbol):
         print(data)
         if not data["items"]:
             return "Maximum calls reached"
-
-        with open("/assets/ticker_news/"+symbol.upper()+".json","w") as json_file:
-            json.dump(data, json_file, indent=4)
+        
+        s3_object_key = "tickers_news/"+symbol.upper()+'.json'
+        s3.put_object(Body=json.dumps(data), Bucket=bucket_name, Key=s3_object_key)
 
     except:
         print("Maximum API calls reached")
     
-    json_data = None
     try:
-        with open('/assets/ticker_news/'+symbol.upper()+'.json', 'r') as file:
-            json_data = json.load(file)
-
-        data = json_data
-
+        response = s3.get_object(Bucket=bucket_name, Key=s3_object_key)
+        data = json.loads(response['Body'].read().decode('utf-8'))
+        print(data)
         return data
     except:
         return
 ##TESTS
-#lookup_news("AAPL")
+

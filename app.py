@@ -5,17 +5,22 @@ from dotenv import load_dotenv
 import plotly.graph_objs as go
 import pandas as pd
 import os
+import io
 import json
 from plotly.subplots import make_subplots
 from getters.get_data import lookup
 from getters.check_update import check_outdated
 from setters.chart import chart
 from getters.get_news import lookup_news
+import boto3
 
-INTERVAL_OPTIONS = ['Intraday', 'Daily', 'Weekly', 'Monthly']
-CHART_TYPE_OPTIONS = ['Candlestick', 'Line']
-                      
 load_dotenv()
+
+aws_access_key_id = os.getenv("aws_access_key_id")
+aws_secret_access_key = os.getenv("aws_secret_access_key")
+
+s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
+bucket_name = 'stockvision'
 
 symbol = None
 stored_symbol = None
@@ -133,8 +138,10 @@ def load_news(click):
             return html.Div()
     else:
         data = None
-        with open('/assets/ticker_news/'+stored_symbol.upper()+'.json', 'r') as file:
-            data = json.load(file)
+        s3_object_key = "ticker_news/"+symbol.upper()+'.json'
+        response = s3.get_object(Bucket=bucket_name, Key=s3_object_key)
+        data = json.loads(response['Body'].read().decode('utf-8'))
+
     
     feed = data["feed"]
     news_divs = [
@@ -174,20 +181,24 @@ def update_graph(n_clicks, time_frame_value, chart_type_value):
             ))  
     trigger = dash.callback_context.triggered[0]['prop_id'].split('.')[0]
 
-    folder_path = "/assets/tickers/"
+    s3_object_key = "tickers/"+symbol.upper()+'.csv'
     if trigger == "fetch-data-button":
         stored_symbol = symbol
-        file_path = folder_path+stored_symbol.upper()+".csv"
-        if not os.path.isfile(file_path):
+        try:
+            s3.head_object(Bucket=bucket_name, Key=s3_object_key)
+        except:
             error = lookup(stored_symbol)
             if error:
                 return error
-        df = pd.read_csv(folder_path+stored_symbol+".csv")
+        response = s3.get_object(Bucket=bucket_name, Key=s3_object_key)
+        csv_data = response['Body'].read().decode('utf-8')
+        df = pd.read_csv(io.StringIO(csv_data))
 
         if check_outdated(stored_symbol, df):
             error = lookup(stored_symbol)
-    
-    df = pd.read_csv(folder_path+stored_symbol+".csv")
+    response = s3.get_object(Bucket=bucket_name, Key=s3_object_key)
+    csv_data = response['Body'].read().decode('utf-8')
+    df = pd.read_csv(io.StringIO(csv_data))
         
     stock_data = df[df.time_frame == time_frame_value]
 

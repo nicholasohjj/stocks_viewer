@@ -3,8 +3,14 @@ import alpha_vantage.timeseries as ts
 from dotenv import load_dotenv
 from plotly.subplots import make_subplots
 import os
+import boto3
 
 load_dotenv()
+aws_access_key_id = os.getenv("aws_access_key_id")
+aws_secret_access_key = os.getenv("aws_secret_access_key")
+
+s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
+bucket_name = 'stockvision'
 
 api_key_intraday = os.getenv("api_key_intraday")
 api_key_daily = os.getenv("api_key_daily")
@@ -34,8 +40,13 @@ def lookup(symbol):
         weekly_data = get_data(symbol, "Weekly adjusted",  ts_weekly.get_weekly_adjusted)
         monthly_data = get_data(symbol, "Monthly adjusted",  ts_monthly.get_monthly_adjusted)
         data = pd.concat([intraday_data, daily_data, weekly_data, monthly_data])
-        folder_path = '/assets/tickers/'
-        data.to_csv(folder_path+symbol.upper()+'.csv', index=True)
+        #folder_path = '/assets/tickers/'
+        #data.to_csv(folder_path+symbol.upper()+'.csv', index=True)
+        
+        s3_object_key = "tickers/"+symbol.upper()+'.csv'
+        data_csv = data.to_csv(index = True)
+        s3.put_object(Body=data_csv, Bucket=bucket_name, Key=s3_object_key)
+
     except ValueError as e:
         print(str(e))
         if "Invalid API call" in str(e):
@@ -58,4 +69,3 @@ def lookup(symbol):
                     color="black"
                 ))  
 ##TESTS
-#lookup("se")
