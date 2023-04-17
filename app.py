@@ -12,7 +12,7 @@ from plotly.subplots import make_subplots
 from getters.get_data import lookup
 from getters.check_update import check_outdated
 from setters.chart import chart
-from getters.get_news import lookup_news
+from getters.fetch_news_sentiment import fetch_news_sentiment
 import boto3
 
 load_dotenv()
@@ -170,7 +170,7 @@ def load_news(click):
     if symbol == None:
         return
     if stored_symbol != symbol:
-        data = lookup_news(symbol)
+        data = fetch_news_sentiment(symbol)
         if data == None:
             return html.Div()
     else:
