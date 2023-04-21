@@ -20,5 +20,5 @@ def chart(stored_symbol, stock_data, chart_type_value, time_frame_value):
             mode='lines'
         )]
         title = f"{stored_symbol.upper()} - {time_frame_value} Prices"
-
+    
     return data, title
