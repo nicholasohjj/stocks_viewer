@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    Stockvision
+    Stockvision (Buggy)
 </h1>
 
 <p align="center">
