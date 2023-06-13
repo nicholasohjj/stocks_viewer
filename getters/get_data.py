@@ -8,8 +8,8 @@ import boto3
 load_dotenv()
 
 aws_credentials = {
-    "aws_access_key_id": os.getenv("aws_access_key_id"),
-    "aws_secret_access_key": os.getenv("aws_secret_access_key")
+    "aws_access_key_id": os.getenv("aws_access_key_id_"),
+    "aws_secret_access_key": os.getenv("aws_secret_access_key_")
 }
 
 s3 = boto3.client('s3', **aws_credentials)

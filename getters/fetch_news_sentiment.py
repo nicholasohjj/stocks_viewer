@@ -8,10 +8,12 @@ from botocore.exceptions import ClientError
 
 load_dotenv()
 
-aws_access_key_id = os.getenv("aws_access_key_id")
-aws_secret_access_key = os.getenv("aws_secret_access_key")
+aws_credentials = {
+    "aws_access_key_id": os.getenv("aws_access_key_id_"),
+    "aws_secret_access_key": os.getenv("aws_secret_access_key_")
+}
 
-s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
+s3 = boto3.client('s3', **aws_credentials)
 bucket_name = 'stockvision'
 
 api_key_news = os.getenv("api_key_news")
