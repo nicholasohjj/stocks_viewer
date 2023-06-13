@@ -36,7 +36,7 @@ with open("time_frames.json") as file:
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, '/assets/styles.css'])
 
-server = Flask(__name__)
+server = app.server
 
 app.title = "StockVision - Stock Data Visualization"  # Set the title of the HTML page
 
