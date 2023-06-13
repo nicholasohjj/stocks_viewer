@@ -1,6 +1,7 @@
 import dash
 from dash import Dash, html, dcc, Output, Input, State
 import dash_bootstrap_components as dbc
+from flask import Flask
 from dotenv import load_dotenv
 import plotly.graph_objs as go
 import pandas as pd
@@ -35,7 +36,8 @@ with open("time_frames.json") as file:
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, '/assets/styles.css'])
 
-server = app.server
+server = Flask(__name__)
+
 app.title = "StockVision - Stock Data Visualization"  # Set the title of the HTML page
 
 app.layout = html.Div([
@@ -248,4 +250,4 @@ def update_graph(n_clicks, time_frame_value, chart_type_value):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
